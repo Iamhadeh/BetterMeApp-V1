@@ -17,7 +17,7 @@ function Root () {
         </menu>
        <header>
         <div className="headerBox1">
-        <h3>Welcome,</h3>
+        <h3 className="welcomeH3">Welcome,</h3>
         <h1 className="mainH1"> Become A Better Individual</h1>
        <h2>One Activity At A Time</h2>
        <p>To become the top one percent in your field, you have to master a couple of soft skills. Start your journey to become a betteer person today</p>
@@ -26,7 +26,7 @@ function Root () {
        </header>
   
        <div className="skillBox">
-        <button className="creativity"> <Link to={'home/creativity'}>CREATIVITY</Link> </button>
+        <button className="creativity"> <Link to={'home/creativity'}> CREATIVITY</Link> </button>
         <button className="creativity">SALES</button>
         <button className="creativity">DECISON-MAKING</button>
        </div>
