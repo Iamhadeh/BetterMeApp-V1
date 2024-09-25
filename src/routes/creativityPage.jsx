@@ -1,8 +1,29 @@
 
 
+
+import React from "react";
+
+
+ 
+//   );
+
+
 function Creativity () {
+
+    function gotClicked () {
+        return(
+            alert("Hello, I got clicked.")
+        )
+    }; 
+
+
+
+
     return (
         <>
+        <div className="popUp">
+            <div className="starSign"><img src="" alt="" /></div>
+        </div>
         <div className="mainDiv">
             <div className="titleBox">
             <h1>Creativity</h1>
@@ -18,7 +39,9 @@ function Creativity () {
             <div className="divBox1">
                 <h3 className="h3Font" >Fundamentals</h3>
                 <div className="container">
-                    <button className="BtnLearn">What Is Creativity</button>
+                    <button onClick={gotClicked} className="BtnLearn">
+                        What Is Creativity
+                        </button>
                     <button className="BtnLearn">Why Does It Matter?</button>
                     <button className="BtnLearn">History</button>
                     <button className="BtnLearn">Myths $ Facts</button>

@@ -347,3 +347,23 @@ p {
   border: 2px solid black;
   cursor: pointer;
 }
+
+.popUp {
+  background-color: hsl(197 69% 70% / 0.9);
+  width: 1000px;
+  height: 800px;
+  display: none;
+  position: fixed;
+  left: 300px;
+  top: 100px;
+  border: solid 4px brown;
+}
+
+.starSign {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  background-color: brown;
+  top: 0px;
+  left: 955px;
+}
