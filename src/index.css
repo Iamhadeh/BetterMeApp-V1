@@ -41,9 +41,7 @@ h1, h2 {
   margin: 0px;
 }
 
-p {
-  height: 100px;
-}
+
 
 body {
   background-color: skyblue;
@@ -85,7 +83,7 @@ menu {
 }
 
 
-.skillBox {
+.mainBox {
   display: flex;
   justify-content: center;
   justify-content: center;
@@ -94,23 +92,23 @@ menu {
   height: 100px;
 }
 
-.skillBox > button {
+.mainBox > button {
   color: skyblue;
   font-weight: bolder;
-  height: 25px;
+  height: 40px;
   width: 150px;
   border-radius: 20px;
   background-color: black;
   border: 3px solid skyblue;
 }
 
-.skillBox > button:hover {
-  color: black;
+.mainBox > button:hover {
+  color: skyblue;
   font-weight: bolder;
-  height: 25px;
+  height: 40px;
   width: 150px;
   border-radius: 20px;
-  background-color: skyblue;
+  background-color: brown;
   border: 3px solid black;
   cursor: pointer;
 }
@@ -201,6 +199,11 @@ button {
   font-size: 0.8rem;
 }
 
+button:hover {
+  background-color: brown;
+  cursor: pointer;
+}
+
 .page {
   background-color: white;
 }
@@ -242,16 +245,32 @@ button {
 }
 
 .sideBar { 
-  height: 800px;
-  background-color: rgb(14 13 13 / 0.08);
+  height: 860px;
+  background-color: skyblue;
   grid-row-start: 2;
   grid-row-end: 7;
   grid-column-start: 1;
   grid-column-end: 2;
-  border-right: 5px solid brown;
-  border-top: 5px solid brown;
-  border-bottom-right-radius: 10px;
-  border-top-right-radius: 10px;
+  border: 1px solid brown;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.BtnSideBar {
+  width: 180px;
+  border-radius: 12px;
+  height: 40px;
+  border-radius: 5px;
+}
+
+.BtnSideBar:hover {
+  font-weight: bolder;
+  border-radius: 5px;
+  background-color: brown;
+  border: 2px solid black;
+  cursor: pointer;
 }
 
 .resCon {
@@ -336,7 +355,7 @@ p {
 
 .BtnLearn {
   width: 200px;
-  border-radius: 2px;
+  border-radius: 10px;
   height: 40px;
 }
 
@@ -367,3 +386,117 @@ p {
   top: 0px;
   left: 955px;
 }
+
+
+/* Start Learning page  */
+
+
+.mainSLP {
+  width: 1400px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchdiv {
+  width: 1200px;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  border-radius: 10px;
+}
+
+.pickLesson {
+  width: 1200px;
+  background-color: rgb(128 188 212/ 0.7);
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  height: 200px;
+  margin-top: 20px;
+  border-top: 1px solid brown;
+}
+
+.skills {
+  height: 40px;
+  width: 200px;
+  background-color: black;
+  color: skyblue;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+
+.skills:hover {
+  border-radius: 2px;
+  background-color: brown;
+  border: 2px solid black;
+  cursor: pointer;
+}
+
+/* Aboutpage css  */
+
+
+.containerAbout {
+  width: 1400px;
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.divInsideAbout {
+  background-color: rgba(49, 92, 109, 0.3);
+  height: 600px;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  gap: 20px;
+  border-top: 1px solid brown;
+  border-bottom: 1px solid brown;
+}
+
+
+.imgAbout {
+  height: 240px;
+  width: 240px;
+} 
+
+.topBlack {
+  display: flex;
+  width: 1400px;
+  height: 40px;
+  justify-content: center;
+  gap: 10px;
+  background-color: black;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+}
+
+.mainDivInprogressPage {
+  height: 100vh;
+  width: 1400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+

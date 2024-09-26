@@ -1,45 +1,37 @@
 
-
+import { useState } from "react";
 
 import React from "react";
-
-
+import Menu from "../components/menu";
+import Footer from "../components/footer";
+import Sidebar from "../components/Sidebar";
  
 //   );
 
 
 function Creativity () {
 
-    function gotClicked () {
-        return(
-            alert("Hello, I got clicked.")
-        )
-    }; 
-
-
-
-
     return (
         <>
+        <Menu/>
         <div className="popUp">
             <div className="starSign"><img src="" alt="" /></div>
         </div>
         <div className="mainDiv">
             <div className="titleBox">
-            <h1>Creativity</h1>
+            <h1 >Creativity</h1>
             </div>
-            <div className="sideBar"></div>
+            <Sidebar/>
             <section className="resources">
             <h3 className="h3Font">Resources To Make You Become A Creative Genius</h3>
                 <div className="resCon">
                 <p className="textFont">Learn all the things you need to know to become a creative genius...</p>
-                <button>Start Learning</button>
                 </div>
             </section> 
             <div className="divBox1">
                 <h3 className="h3Font" >Fundamentals</h3>
                 <div className="container">
-                    <button onClick={gotClicked} className="BtnLearn">
+                    <button className="BtnLearn">
                         What Is Creativity
                         </button>
                     <button className="BtnLearn">Why Does It Matter?</button>
@@ -72,6 +64,7 @@ function Creativity () {
                 </div>  
             </div>
         </div>
+        <Footer/>
         </>
     )
 }

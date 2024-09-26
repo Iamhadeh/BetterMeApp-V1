@@ -11,6 +11,10 @@ import Root from "./routes/root";
 
 import ErrorPage from "./error-page";
 import Creativity from "./routes/creativityPage";
+import StartLearning from "./routes/StartLearningPage";
+import About from "./routes/AboutUsPage.Jsx";
+import Inprogress from "./routes/inProgressPage";
+
 
 const router = createBrowserRouter([
   {
@@ -18,9 +22,21 @@ const router = createBrowserRouter([
     element: <Root/>,
     errorElement: <ErrorPage />,
   },
+  {
+    path: "/about",
+      element: <About />,
+  },
     {
-      path: "home/creativity",
-      element: <Creativity />,
+      path: "home/startlearning",
+      element: <StartLearning />,
+    },
+    {
+      path: "/creativity",
+        element: <Creativity />,
+    },
+    {
+      path: "/inprogress",
+        element: <Inprogress />,
     },
   ]);
     
