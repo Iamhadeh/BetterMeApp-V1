@@ -1,17 +1,15 @@
 
 import Footer from "../components/footer";
-import { Link } from "react-router-dom";
+import Menu from "../components/menu";
 
 
 
 function About () {
     return (
         <>
-        <div className="topBlack">
-            <button className="home"><Link to={'/'}>Home</Link></button>
-        </div>
+        <Menu/>
         <div className="containerAbout">
-        <div className="divInsideAbout">
+        <div className="divInsideAbout1">
             <h2>What is Better Me App?</h2>
             <img className="imgAbout" src="https://images.unsplash.com/photo-1607749111659-e1c8e05f5f24?" alt="" />
             <p>Welcome to BetterMeApp --your one-stop hub for mastering essential soft skills.</p>

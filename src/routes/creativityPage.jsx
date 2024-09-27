@@ -37,7 +37,7 @@ function Creativity () {
                     <button className="BtnLearn">Why Does It Matter?</button>
                     <button className="BtnLearn">History</button>
                     <button className="BtnLearn">Myths $ Facts</button>
-                    <button className="BtnLearn">The Word Most Creative People</button>
+                    <button className="BtnLearn">World Most Creative People</button>
                     <button className="BtnLearn">Tools </button>
                 </div>
             </div>
@@ -45,9 +45,10 @@ function Creativity () {
             <h3 className="h3Font" >Research And Case Studies</h3>
                 <div className="container">
                     <button className="BtnLearn">Case Studies</button>
-                    <button className="BtnLearn">Reports</button>
+                    <button className="BtnLearn">Reports/Research</button>
                     <button className="BtnLearn">Experiments</button>
                     <button className="BtnLearn">The Brain and Creativity</button>
+                    <button className="BtnLearn">Warnings</button>
                 </div>
             </div>
             <div className="divBox3">

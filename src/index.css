@@ -457,8 +457,8 @@ input {
   gap: 50px;
 }
 
-.divInsideAbout {
-  background-color: rgba(49, 92, 109, 0.3);
+.divInsideAbout, .divInsideAbout1 {
+  background-color: rgba(62, 155, 192, 0.3);
   height: 600px;
   width: 600px;
   display: flex;
@@ -497,6 +497,409 @@ input {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+
+/* Media queries  */ 
+
+
+@media screen and (max-width: 420px) {
+
+body {
+  width: 420px;
+}
+  
+
+h2 {
+  font-size: 1.6rem;
+}
+
+.welcomeH3 {
+  font-family: "Caveat", system-ui;
+  height: 20px;
+}
+
+
+
+main {
+  margin: 0px;
+  padding: 0px;
+  margin-top: 0px;
+} 
+
+menu {
+  display: flex;
+  width: 420px;
+  height: 40px;
+  justify-content: center;
+  gap: 10px;
+  background-color: black;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+}
+
+
+
+.menuBtn {
+  color: skyblue;
+  border: 3px solid skyblue;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  width: 80px;
+  height: 25px;
+  background-color: black;
+  border-radius: 25px;
+}
+
+
+.mainBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 420px;
+  height: 240px;
+}
+
+.mainBox > button {
+  height: 40px;
+  width: 150px;
+}
+
+.mainBox > button:hover {
+  background-color: brown;
+}
+
+header {
+  flex-direction: column;
+  width: 420px;
+  height: 700px;
+  gap: 10px;
+}
+
+.headerBox1, .headerBox2 {
+  display: flex;
+  padding: 0px;
+  margin: 0px;
+  gap: 10px;
+  flex-direction: column;
+  height: 300px;
+  width: 300px;
+}
+
+
+.headerBox2 > img {
+  height: 280px;
+  width: 280px;
+}
+
+footer {
+  width: 420px;
+  height: 55px;
+}
+
+footer > h3 {
+  font-size: 1.0rem;
+}
+
+.socialIcon {
+  height: 12px;
+  position: relative;
+}
+
+.footerIcons {
+  width: 200px;
+}
+
+
+button {
+  color: skyblue;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+
+
+/* styling for creativepage */
+
+.mainDiv {
+  height: 2200px;
+  width: 420px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.titleBox {
+  background-color: skyblue;
+  height: 40px;
+  width: 420px;
+}
+
+.resources {
+  height: 300px;
+  width: 420px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 0px;
+}
+
+
+.resources h3 {
+  width: 360px;
+}
+
+.resCon {
+  height: 160px;
+  width: 280px;
+  display: flex;
+  gap: 10px;
+  padding-left: 0px;
+}
+
+.sideBar { 
+  display: none;
+}
+
+.BtnSideBar {
+  width: 180px;
+  border-radius: 12px;
+  height: 40px;
+  border-radius: 5px;
+}
+
+.BtnSideBar:hover {
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+
+p {
+  font-weight: bolder;
+}
+
+.resCon:hover{
+  border-top: 1px solid brown;
+  border-bottom: 1px solid brown;
+}
+
+
+.divBox1, .divBox3 {
+  display: flex;
+  flex-wrap: wrap;
+  height: 600px;
+  width: 400px;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(14 13 13 / 0.08);
+}
+
+.divBox2 {
+  display: flex;
+  flex-wrap: wrap;
+  height: 600px;
+  width: 400px;
+  align-items: center;
+  gap: 0px;
+}
+
+.textFont {
+  text-align: start; 
+  height: 100%;
+}
+
+
+
+
+.container {
+  height: 420px;
+  width: 380px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.h3Font {
+  font-size: 1.8rem;
+  font-weight: bolder;
+  color: brown;
+}
+
+
+
+.BtnLearn {
+  width: 180px;
+  border-radius: 10px;
+  height: 35px;
+  font-size: 0.8rem;
+}
+
+.BtnLearn:hover {
+  width: 160px;
+  font-weight: 100;
+  height: 35px;
+  font-size: 0.77rem;
+  border-radius: 8px;
+  background-color: brown;
+  border: 2px solid black;
+  cursor: pointer;
+}
+
+.popUp {
+  display: none;
+}
+
+.starSign {
+  position: absolute;
+  top: 0px;
+  left: 955px;
+  display: none;
+}
+
+
+
+
+
+/* Start Learning page  */
+
+
+.mainSLP {
+  width: 420px;
+  height: 1200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchdiv {
+  width: 400px;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  border-radius: 10px;
+}
+
+.pickLesson {
+  width: 400px;
+  background-color: rgb(128 188 212/ 0.7);
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: baseline;
+  height: fit-content;
+  padding-bottom: 20px;
+  margin-top: 20px;
+  border-top: 1px solid brown;
+}
+
+.skills {
+  height: 30px;
+  width: 160px;
+  background-color: black;
+  color: skyblue;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+
+.skills:hover {
+  height: 30px;
+  width: 160px;
+  background-color: brown;
+  color: skyblue;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+
+
+/* Aboutpage css  */
+
+
+.containerAbout {
+  width: 420px;
+  height: fit-content;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.divInsideAbout1 {
+  background-color: rgba(62, 155, 192, 0.3);
+  height: 800px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  gap: 20px;
+  border-top: 1px solid brown;
+  border-bottom: 1px solid brown;
+
+}
+
+.divInsideAbout {
+  background-color: rgba(62, 155, 192, 0.3);
+  height: 450px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  gap: 20px;
+  border-top: 1px solid brown;
+  border-bottom: 1px solid brown;
+}
+
+
+.imgAbout {
+  height: 240px;
+  width: 240px;
+} 
+
+
+/* Inprogress page css */
+
+.mainDivInprogressPage {
+  height: fit-content;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  width: 420px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 
 }
 

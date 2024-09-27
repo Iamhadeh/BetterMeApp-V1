@@ -9,7 +9,6 @@ function Inprogress() {
             <h3>Please check back later</h3>
         </div>
         </>
-
     )
 }
 
