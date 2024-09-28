@@ -1,12 +1,31 @@
 
-import { useState } from "react";
 
 import React from "react";
 import Menu from "../components/menu";
 import Footer from "../components/footer";
 import Sidebar from "../components/Sidebar";
+import ButtonsProps from "../components/Button";
+import FundamentalButtons, {ResearchButtons, HowToButtons} from "../components/CreativePageInfo";
  
 //   );
+
+function CreateButtons (FundamentalButtons) {
+    return (
+        <ButtonsProps name={FundamentalButtons.name}/>
+    )
+}
+
+function CreateResearchuttons (ResearchButtons) {
+    return (
+        <ButtonsProps name={ResearchButtons.name}/>
+    )
+}
+
+function CreateHowTos (HowToButtons) {
+    return (
+        <ButtonsProps name={HowToButtons.name}/>
+    )
+}
 
 
 function Creativity () {
@@ -31,37 +50,28 @@ function Creativity () {
             <div className="divBox1">
                 <h3 className="h3Font" >Fundamentals</h3>
                 <div className="container">
-                    <button className="BtnLearn">
-                        What Is Creativity
-                        </button>
-                    <button className="BtnLearn">Why Does It Matter?</button>
-                    <button className="BtnLearn">History</button>
-                    <button className="BtnLearn">Myths $ Facts</button>
-                    <button className="BtnLearn">World Most Creative People</button>
-                    <button className="BtnLearn">Tools </button>
+                    {FundamentalButtons.map(CreateButtons)}
                 </div>
             </div>
             <div className="divBox2">
             <h3 className="h3Font" >Research And Case Studies</h3>
                 <div className="container">
-                    <button className="BtnLearn">Case Studies</button>
-                    <button className="BtnLearn">Reports/Research</button>
-                    <button className="BtnLearn">Experiments</button>
-                    <button className="BtnLearn">The Brain and Creativity</button>
-                    <button className="BtnLearn">Warnings</button>
+                {ResearchButtons.map(CreateResearchuttons)}
                 </div>
             </div>
             <div className="divBox3">
                 {/* how to  container  */}
                 <h3 className="h3Font" >How To</h3>
                 <div className="container">
-                    <button className="BtnLearn">Staying Curios</button>
+                {HowToButtons.map(CreateHowTos)}
+
+                    {/* <button className="BtnLearn">Staying Curios</button>
                     <button className="BtnLearn">Mapping</button>
                     <button className="BtnLearn">Problem-Solving</button>
                     <button className="BtnLearn">Creative Habits</button>
                     <button className="BtnLearn">Essays</button>
                     <button className="BtnLearn">Sources of Creativity</button>
-                    <button className="BtnLearn">Creative Projects</button>
+                    <button className="BtnLearn">Creative Projects</button> */}
                 </div>  
             </div>
         </div>
