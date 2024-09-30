@@ -1,14 +1,15 @@
-import { Link } from "react-router-dom";
+
 
 import Menu from "../components/menu";
 import Footer from "../components/footer";
-import ButtonsProps, {SkillProps} from "../components/Button";
+import {SkillProps} from "../components/Button";
 import softskills from "../components/SoftSkilloptions";
 
 
 function createButton (softskills) {
     return (
         <SkillProps
+        link={softskills.link}
         name={softskills.name}
         />
     )
@@ -30,10 +31,10 @@ function StartLearning() {
             <div>
                 <div className="searchdiv">
                     <input type="text" />
-                    <button className="SearchBtn">Seaerch</button>
+                    <button className="SearchBtn">Search</button>
                 </div>
                 <div className="pickLesson">
-                <div className="skills"> <Link to={'/creativity'}>Creativity</Link> </div>
+                {/* <div className="skills"> <Link to={'/creativity'}> Creativity</Link> </div> */}
                 {softskills.map(createButton)}
                    {/* <div className="skills">Sales</div>
                     <div className="skills">Emotional Intelligence</div>
