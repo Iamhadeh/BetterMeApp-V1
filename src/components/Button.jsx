@@ -16,7 +16,7 @@ function SkillProps (props) {
     return (
         <div className="skills">
             <Link to={props.link}> {props.name} </Link> 
-            </div>
+        </div>
         // <div className="skills">{props.name}</div>
     )
 }
