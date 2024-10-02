@@ -73,6 +73,7 @@ menu {
 /* hamburger menu */
 
 nav {
+  display: none;
   height: 40px;
   width: 520px;
   background-color: black;
@@ -661,6 +662,14 @@ Writing things here so it's easy to spot where the media queries from the right 
   
   /* Hamburger menu */
 
+  nav {
+    display: block;
+    height: 40px;
+    width: 520px;
+    background-color: black;
+    padding-top: 7px;
+    padding-left: 10px;
+  }
 
   nav .menuBtn {
     display: none;
