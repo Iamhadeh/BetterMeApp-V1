@@ -2,11 +2,12 @@ import { Link } from "react-router-dom";
 
 
 
-
 function ButtonsProps (props) {
     return (
         <>
-         <button className="BtnLearn">{props.name}</button>
+         <button className="BtnLearn">
+            <Link to={props.link}>{props.name}</Link>
+        </button>
     </>
     );
 }

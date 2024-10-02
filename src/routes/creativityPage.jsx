@@ -11,9 +11,13 @@ import FundamentalButtons, {ResearchButtons, HowToButtons} from "../components/C
 
 function CreateButtons (FundamentalButtons) {
     return (
-        <ButtonsProps name={FundamentalButtons.name}/>
+        <ButtonsProps 
+        name={FundamentalButtons.name}
+        link={FundamentalButtons.link}
+        />
     )
 }
+
 
 function CreateResearchuttons (ResearchButtons) {
     return (

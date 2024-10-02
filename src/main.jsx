@@ -16,6 +16,7 @@ import About from "./routes/AboutUsPage.jsx";
 import Inprogress from "./routes/inProgressPage";
 import EmotionalIntelligence from "./routes/EmotionalIntelligence";
 import CriticalThinking from "./routes/CriticialThinking";
+import WhatIsCreativity from "./routes/routesSubpages/CreativityTopicsPages/WhatIsCreativitity.jsx";
 
 
 const router = createBrowserRouter([
@@ -49,13 +50,15 @@ const router = createBrowserRouter([
       path: "/critical-thinking",
         element: <CriticalThinking />,
     },
-
-
-
     
     {
       path: "/creativity/home/startlearning",
       element: <StartLearning />,
+    },
+
+    {
+      path: "/what-is-creativity",
+      element: <WhatIsCreativity />,
     },
   ]); 
     

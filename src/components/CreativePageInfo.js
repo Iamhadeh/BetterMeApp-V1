@@ -1,13 +1,34 @@
 
 
 const FundamentalButtons = [
-    {name: "What Is Creativity"},
-    {name:"Why Does It Matter?"}, 
-    {name:"History"}, 
-    {name:" Myths $ Facts"}, 
-    {name:"Tools"},
-    {name:"World Most Creative People"}, 
-    {name:"Interviews/speeches"},
+    {
+        name: "What Is Creativity",
+        link: "/what-is-creativity"
+    },
+    {
+        name:"Why Does It Matter?",
+        link:"/why-it-matters"
+    }, 
+    {
+        name:"History",
+        link:"/history-of-creativity"
+    }, 
+    {
+        name:" Myths $ Facts",
+        link:"creativity-myths-facts"
+    }, 
+    {
+        name:"Tools",
+        link:"/creativity-tools"
+    },
+    {
+        name:"World Most Creative People",
+        link:"world-most-creative-people"
+    }, 
+    {
+        name:"Interviews/speeches",
+        link:"/interviews-and-speeches-about-creativity"
+    },
 
 ]
 
