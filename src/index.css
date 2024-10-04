@@ -157,6 +157,65 @@ header {
   border-radius: 50%;
 }
 
+
+/* 
+
+.SecondBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1400px;
+  height: 500px;
+  gap: 20px;
+}
+
+.innerBox, .innerBox1 {
+  display: flex;
+  padding: 0px;
+  margin: 0px;
+  gap: 10px;
+  flex-direction: column;
+  height: 340px;
+  width: 340px;
+}
+
+.innerBox {
+  gap: 30px;
+  padding-top: 20px;
+}
+
+.innerBox1 {
+  padding-top: 20px;
+  display: grid;
+  grid-template-columns: 150px 200px;
+  grid-template-rows: 150px 200px;
+  gap: 10px;
+  padding-left: 20px;
+  border: 1px solid brown;
+}
+
+.img {
+  width: 150px;
+  height: 200px;
+}
+
+
+.innerBox1 img {
+  height: 150px;
+  width: 150px;
+}
+
+.img3 {
+  width: 200px;
+  height: 150px;
+  border-radius: 50%;
+
+} */
+
+
+/* ..... */
+
+
 footer {
   display: flex;
   justify-content: center;
