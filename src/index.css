@@ -144,7 +144,7 @@ header {
 
 .headerBox2 {
    border-radius: 50%;
-   background-color: brown;
+   background-color: brown; 
    display: flex;
    justify-content: center;
    align-items: center;
@@ -1895,7 +1895,7 @@ input {
     height: 40px;
     width: 180px;
     background-color: black;
-    font-size: 15px;
+    font-size: 13px;
     color: skyblue;
     border-radius: 5px;
     display: flex;
