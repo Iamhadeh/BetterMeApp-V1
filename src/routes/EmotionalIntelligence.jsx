@@ -1,34 +1,33 @@
 
 
 
-
-
 import React from "react";
 import Menu from "../components/menu";
+import NavigationBar from "../components/HamburgerMenu";
 import Footer from "../components/footer";
 import Sidebar from "../components/Sidebar";
 import ButtonsProps from "../components/Button";
+import FunBtnEI, {HowToBtnEI, RschBtnEI} from "../components/EmoIntPageInfo";
 
  
-//   );
 
-// function CreateButtons (FundamentalButtons) {
-//     return (
-//         <ButtonsProps name={FundamentalButtons.name}/>
-//     )
-// }
+function CreateButtons (FunBtnEI) {
+    return (
+        <ButtonsProps name={FunBtnEI.name}/>
+    )
+}
 
-// function CreateResearchuttons (ResearchButtons) {
-//     return (
-//         <ButtonsProps name={ResearchButtons.name}/>
-//     )
-// }
+function CreateResearchuttons (RschBtnEI) {
+    return (
+        <ButtonsProps name={RschBtnEI.name}/>
+    )
+}
 
-// function CreateHowTos (HowToButtons) {
-//     return (
-//         <ButtonsProps name={HowToButtons.name}/>
-//     )
-// }
+function CreateHowTos (HowToBtnEI) {
+    return (
+        <ButtonsProps name={HowToBtnEI.name}/>
+    )
+}
 
 
 function EmotionalIntelligence () {
@@ -36,9 +35,7 @@ function EmotionalIntelligence () {
     return (
         <>
         <Menu/>
-        {/* <div className="popUp">
-            <div className="starSign"><img src="" alt="" /></div>
-        </div> */}
+        <NavigationBar/>
         <div className="mainDiv">
             <div className="titleBox">
             <h1 > Emotional Intelligence</h1>
@@ -53,21 +50,21 @@ function EmotionalIntelligence () {
             <div className="divBox1">
                 <h3 className="h3Font" >Fundamentals</h3>
                 <div className="container">
-                    {/* {FundamentalButtons.map(CreateButtons)} */}
+                    {FunBtnEI.map(CreateButtons)}
                 </div>
             </div>
             <div className="divBox2">
-            <h3 className="h3Font" >Research And Case Studies</h3>
+            <h3 className="h3Font" >Science and Research</h3>
                 <div className="container">
 
-                {/* {ResearchButtons.map(CreateResearchuttons)} */}
+                {RschBtnEI.map(CreateResearchuttons)}
                 </div>
             </div>
             <div className="divBox3">
                 {/* how to  container  */}
                 <h3 className="h3Font" >How To</h3>
                 <div className="container">
-                    {/* {HowToButtons.map(CreateHowTos)} */}
+                    {HowToBtnEI.map(CreateHowTos)}
                 </div>  
             </div>
         </div>

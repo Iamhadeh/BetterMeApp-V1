@@ -2,6 +2,7 @@
 
 import React from "react";
 import Menu from "../components/menu";
+import NavigationBar from "../components/HamburgerMenu";
 import Footer from "../components/footer";
 import Sidebar from "../components/Sidebar";
 import ButtonsProps from "../components/Button";
@@ -37,9 +38,7 @@ function Creativity () {
     return (
         <>
         <Menu/>
-        {/* <div className="popUp">
-            <div className="starSign"><img src="" alt="" /></div>
-        </div> */}
+        <NavigationBar/>
         <div className="mainDiv">
             <div className="titleBox">
             <h1 >Creativity</h1>

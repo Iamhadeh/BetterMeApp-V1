@@ -1,6 +1,7 @@
 
 import Footer from "../components/footer";
 import Menu from "../components/menu";
+import NavigationBar from "../components/HamburgerMenu";
 
 
 
@@ -10,6 +11,8 @@ function About () {
     return (
         <>
         <Menu/>
+        <NavigationBar/>
+
         <div className="containerAbout">
         <div className="divInsideAbout1">
             <h2>What is Better Me App?</h2>

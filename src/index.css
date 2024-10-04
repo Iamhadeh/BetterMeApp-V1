@@ -355,20 +355,21 @@ p {
   gap: 10px;
   align-items: center;
   background-color: skyblue;
+  padding-left: 10px;
   /* justify-content: center; */
 }
 
 .h3Font {
-  font-size: 1.8rem;
+  font-size: 1.7rem;
   font-weight: bolder;
   color: brown;
 }
 
 
 .BtnLearn {
-  width: 200px;
+  width: 260px;
   border-radius: 10px;
-  height: 40px;
+  height: 45px;
 }
 
 .BtnLearn:hover {
@@ -664,10 +665,13 @@ Writing things here so it's easy to spot where the media queries from the right 
     background-color: black;
     padding-top: 7px;
     padding-left: 10px;
+     z-index: 1;
   }
 
   nav .menuBtn {
     display: none;
+    z-index: 1;
+    background-color: black;
   }
 
   nav .mainNavBtn {
@@ -682,13 +686,15 @@ Writing things here so it's easy to spot where the media queries from the right 
   .hamCon {
     height: 200px;
     width: 120px;
-    background-color: rgb(0 0 0/0.5);
+    background-color: black;
     border: 2px solid brown;
     gap: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding-left: 10px;
+    position: relative;
+    z-index: 1;
   }
 
   
@@ -741,6 +747,10 @@ Writing things here so it's easy to spot where the media queries from the right 
   .mainBox > button {
     height: 40px;
     width: 150px;
+  }
+
+  .mainH2, .mainH1 {
+    z-index: -1;
   }
   
   .mainBox > button:hover {
@@ -802,7 +812,8 @@ Writing things here so it's easy to spot where the media queries from the right 
   /* styling for creativepage */
   
   .mainDiv {
-    height: 2200px;
+    height: fit-content;
+    padding-bottom: 50px;
     width: 520px;
     display: flex;
     flex-direction: column;
@@ -874,7 +885,7 @@ Writing things here so it's easy to spot where the media queries from the right 
     height: 600px;
     width: 480px;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     background-color: rgb(14 13 13 / 0.08);
   }
   
@@ -883,7 +894,8 @@ Writing things here so it's easy to spot where the media queries from the right 
     flex-wrap: wrap;
     height: 600px;
     width: 480px;
-    align-items: center;
+    justify-content: center;
+    /* align-items: center; */
     gap: 0px;
   }
   
@@ -897,12 +909,16 @@ Writing things here so it's easy to spot where the media queries from the right 
   
   .container {
     height: 420px;
-    width: 380px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    align-items: center;
-    justify-content: center;
+    width: 400px;
+    display: inline-block;
+    gap: 30px;
+    /* flex-wrap: wrap; */
+    padding-top: 20px;
+  }
+
+  .container .BtnLearn {
+    margin-top: 20px;
+    margin-left: 2px;
   }
   
   .h3Font {
@@ -914,33 +930,23 @@ Writing things here so it's easy to spot where the media queries from the right 
   
   
   .BtnLearn {
-    width: 180px;
+    width: 185px;
     border-radius: 10px;
-    height: 35px;
-    font-size: 0.8rem;
+    height: 42px;
+    font-size: 0.70rem;
   }
   
   .BtnLearn:hover {
-    width: 160px;
-    font-weight: 100;
-    height: 35px;
-    font-size: 0.77rem;
+    width: 185px;
+    font-weight: inherit;
+    height: 45px;
+    font-size: 0.70rem;
     border-radius: 8px;
     background-color: brown;
     border: 2px solid black;
     cursor: pointer;
   }
   
-  .popUp {
-    display: none;
-  }
-  
-  .starSign {
-    position: absolute;
-    top: 0px;
-    left: 955px;
-    display: none;
-  }
   
   
   
@@ -1244,7 +1250,8 @@ footer {
 
 
  .mainDiv {
-  height: 2200px;
+  height: fit-content;
+  padding-bottom: 50px;
   width: 420px;
   display: flex;
   flex-direction: column;
@@ -1473,7 +1480,7 @@ input {
 .divInsideAbout1 {
   background-color: rgba(62, 155, 192, 0.3);
   height: 800px;
-  width: 400px;
+  width: 360px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1489,7 +1496,7 @@ input {
 .divInsideAbout {
   background-color: rgba(62, 155, 192, 0.3);
   height: 450px;
-  width: 400px;
+  width: 360px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1521,5 +1528,426 @@ input {
   justify-content: center;
 }  
 
+
+  /* Subpages css */
+
+  .pageContainer {
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+  
+   nav {
+    width: 420px;
+    box-sizing: border-box;
+   }
+  
+   .heading {
+    height: 150px;
+    width: 420px;
+   }
+  
+   .contentMainBox {
+    width: 380px;
+    padding: 0px;
+    gap: 0px;
+   }
+  
+   .eachTopic {
+    width: 280px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* margin-left: 0px;
+    margin-right: 0px; */
+   }
+
 }
+
+
+
+/* Another media query  */
+
+
+@media screen and (max-width: 360px) {
+
+  body {
+    width: 360px;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+  
+  
+  
+/*   
+  menu {
+    width: 420px;
+  } */
+  
+  
+  nav {
+    width: 360px;
+    z-index: 1;
+  }
+
+  .hamCon {
+    z-index: 1;
+    position: relative;
+  }
+
+  /* .hamCon * {
+    position: relative;
+    z-index: 1;
+  } */
+  
+  
+  .mainBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 360px;
+    height: 240px;
+  }
+  
+  .mainBox > button {
+    height: 40px;
+    width: 150px;
+  }
+  
+  .mainBox > button:hover {
+    background-color: brown;
+  }
+  
+  header {
+    width: 360px;
+  }
+  
+  
+  .headerBox1, .headerBox2 {
+  
+    height: 280px;
+    width: 280px;
+  }
+  
+  
+  .headerBox2 > img {
+    height: 240px;
+    width: 240px;
+  }
+  
+  footer {
+    width: 360px;
+  }
+  
+  
+  .footerIcons {
+    width: 200px;
+  }
+  
+  
+  
+  
+  
+  /* styling for creativepage */
+  
+  
+  
+   .mainDiv {
+    height: fit-content;
+    padding-bottom: 50px;
+    width: 360px;
+    /* display: flex;
+    flex-direction: column; */
+  }
+  
+  
+  
+  .titleBox {
+    /* background-color: skyblue;
+    height: 40px; */
+    width: 360px;
+    /* padding-left: 15px; */
+  }
+  
+  .resources {
+    height: 300px;
+    width: 320px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0px; */
+  }
+  
+  
+  .resources h3 {
+    width: 300px;
+  }
+  
+  .resCon {
+    height: 160px;
+    width: 300px;
+    display: flex;
+    gap: 10px;
+    padding-left: 0px;
+  }
+  
+  .sideBar { 
+    display: none;
+  }
+  
+  .BtnSideBar {
+    width: 180px;
+    border-radius: 12px;
+    height: 40px;
+    border-radius: 5px;
+  }
+  
+  .BtnSideBar:hover {
+    font-weight: bolder;
+    cursor: pointer;
+  }
+  
+  
+  p {
+    font-weight: bold;
+  }
+  
+  .resCon:hover{
+    border-top: 1px solid brown;
+    border-bottom: 1px solid brown;
+  }
+  
+  
+  .divBox1, .divBox3 {
+    display: flex;
+    flex-wrap: wrap;
+    height: fit-content;
+    padding-bottom: 50px;
+    width: 320px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(14 13 13 / 0.08);
+  }
+  
+  .divBox2 {
+    display: flex;
+    flex-wrap: wrap;
+    height: fit-content;
+    padding-bottom: 50px;
+    width: 320px;
+    align-items: center;
+    gap: 0px;
+  }
+  
+  .textFont {
+    text-align: start; 
+    height: 100%;
+  }
+  
+  
+  
+  
+  .container {
+    height: fit-content;
+    padding-bottom: 50px;
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .h3Font {
+    font-size: 1.4rem;
+    font-weight: bolder;
+    color: brown;
+  }
+  
+  
+  
+  .BtnLearn {
+    width: 180px;
+    border-radius: 10px;
+    height: 35px;
+    font-size: 0.8rem;
+  }
+  
+  .BtnLearn:hover {
+    width: 160px;
+    font-weight: 100;
+    height: 35px;
+    font-size: 0.77rem;
+    border-radius: 8px;
+    background-color: brown;
+    border: 2px solid black;
+    cursor: pointer;
+  }
+  
+  
+  
+  
+  
+  /* Start Learning page  */
+  
+  
+   .mainSLP {
+    width: 360px;
+    height: fit-content;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .searchdiv {
+    width: 320px;
+    z-index: -1;
+  }
+  
+  input {
+    border-radius: 10px;
+  }
+  
+  .pickLesson {
+    width:320px;
+    background-color: rgb(128 188 212/ 0.7);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: baseline;
+    height: fit-content;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    border-top: 1px solid brown;
+    z-index: -1;
+  }
+  
+  .skills {
+    height: 40px;
+    width: 180px;
+    background-color: black;
+    font-size: 15px;
+    color: skyblue;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  
+  
+  .skills:hover {
+    height: 38px;
+    width: 175px;
+    background-color: brown;
+    color: skyblue;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  
+  
+  
+  /* About us page css  */
+  
+  
+   .containerAbout {
+    width: 360px;
+    height: fit-content;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+  }
+  
+  .divInsideAbout1 {
+    background-color: rgba(62, 155, 192, 0.3);
+    height: fit-content;
+    width: 320px;
+
+  }
+  
+  .divInsideAbout {
+    background-color: rgba(62, 155, 192, 0.3);
+    height: fit-content;
+    width: 320px;
+    padding: 20px;
+  }
+  
+  
+   .imgAbout {
+    height: 240px;
+    width: 240px;
+  }  
+  
+  
+  /* Inprogress page css */
+  
+   .mainDivInprogressPage {
+    width: 360px;
+  }  
+
+
+  
+
+   /* Subpages css */
+
+ .pageContainer {
+  width: 360px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ }
+
+ nav {
+  width: 360px;
+  box-sizing: border-box;
+ }
+
+ .heading {
+  height: 150px;
+  width: 360px;
+ }
+
+ .contentMainBox {
+  width: 340px;
+  padding: 0px;
+  gap: 0px;
+ }
+
+ .eachTopic {
+  width: 280px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 0px;
+  margin-right: 0px;
+ }
+
+ footer {
+  width: 360px;
+ }
+
+ 
+
+  
+  }
 

@@ -4,6 +4,7 @@ import Menu from "../components/menu";
 import Footer from "../components/footer";
 import {SkillProps} from "../components/Button";
 import softskills from "../components/SoftSkilloptions";
+import NavigationBar from "../components/HamburgerMenu";
 
 
 function createButton (softskills) {
@@ -26,19 +27,16 @@ function StartLearning() {
     return (
         <>
         <Menu/>
+        <NavigationBar/>
         <div className="mainSLP">
            
             <div>
-                <div className="searchdiv">
+                <div className="searchdiv"> 
                     <input type="text" />
                     <button className="SearchBtn">Search</button>
                 </div>
                 <div className="pickLesson">
-                {/* <div className="skills"> <Link to={'/creativity'}> Creativity</Link> </div> */}
                 {softskills.map(createButton)}
-                   {/* <div className="skills">Sales</div>
-                    <div className="skills">Emotional Intelligence</div>
-                    <div className="skills">Communication</div> */}
                 </div>
             </div>
         </div>

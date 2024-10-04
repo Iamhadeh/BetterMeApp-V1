@@ -1,4 +1,6 @@
 import Menu from "../../../components/menu";
+import NavigationBar from "../../../components/HamburgerMenu";
+import Footer from "../../../components/footer";
 import { Link } from "react-router-dom";
 import EachResourceDetail from "../../../components/mainLink";
 import CreativityResource from "./WhatIsCreativity";
@@ -6,14 +8,6 @@ import CreativityResource from "./WhatIsCreativity";
 
 
 
-// function CreateButtons (FundamentalButtons) {
-//     return (
-//         <ButtonsProps 
-//         name={FundamentalButtons.name}
-//         link={FundamentalButtons.link}
-//         />
-//     )
-// }
 
 function CreateButtons (CreativityResource) {
     return (
@@ -31,6 +25,7 @@ function WhatIsCreativity () {
     return (
         <>
         <Menu/>
+        <NavigationBar/>
         <div className="heading">
             <p>Go back to   <button> <Link to= {"/creativity"} > Creativity </Link> </button></p>
             <h1>What is Creativity?</h1>
@@ -45,6 +40,7 @@ function WhatIsCreativity () {
                 {CreativityResource.map(CreateButtons)}
             </div>
         </div>
+        <Footer/>
         </>
     )
 }
