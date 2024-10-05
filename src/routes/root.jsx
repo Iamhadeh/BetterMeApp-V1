@@ -14,6 +14,10 @@ import NavigationBar from "../components/HamburgerMenu";
 
 function Root () {
 
+  function handleChange () {
+    console.log("login")
+}
+
 
     return (
       <>
@@ -36,7 +40,7 @@ function Root () {
        <div className="mainBox">
          <button className="btnMain"> <Link to={'home/startlearning'}> Start Learning</Link> </button>
          <button className="btnMain">Take A Test</button>
-         <button className="btnMain">Analytics</button>
+         <button onClick={handleChange} className="btnMain">Analytics</button>
        </div>
        {/* <div className="SecondBox">
           <div className="innerBox1">

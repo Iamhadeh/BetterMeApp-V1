@@ -562,6 +562,53 @@ input {
 } 
 
 
+/* signup page */ 
+
+.mainSPDiv {
+  width: 1400px;
+  padding: 50px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.signup, .login {
+  background-color: rgb(0 0 0 / 0.6);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 240px;
+  height: fit-content;
+  padding: 20px;
+}
+
+.hideLogin {
+  display: none;
+}
+
+.brown {
+  background-color: brown;
+}
+
+
+.signup input, .login input {
+  width: 200px;
+  height: 30px;
+  border-radius: 0px;
+}
+
+.signup input {
+  width: 200px;
+  height: 30px;
+  border-radius: 0px;
+}
+
+
 
 /* Inprogress page */
 
@@ -573,6 +620,8 @@ input {
   align-items: center;
   justify-content: center;
 }
+
+
 
 
 /* Media queries 
@@ -1130,6 +1179,13 @@ Writing things here so it's easy to spot where the media queries from the right 
     height: 240px;
     width: 240px;
   } 
+
+
+  /* signup page */ 
+
+.mainSPDiv {
+  width: 520px;
+}
   
   
   /* Inprogress page css */
@@ -1574,6 +1630,13 @@ input {
 }  
 
 
+  /* signup page */ 
+
+  .mainSPDiv {
+    width: 420px;
+  }
+
+
 /* Inprogress page css */
 
  .mainDivInprogressPage {
@@ -1956,6 +2019,12 @@ input {
     height: 240px;
     width: 240px;
   }  
+
+    /* signup page */ 
+
+.mainSPDiv {
+  width: 360px;
+}
   
   
   /* Inprogress page css */

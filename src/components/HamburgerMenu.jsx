@@ -8,7 +8,7 @@ function NavigationBar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className={isOpen ? 'isOpen' : ''}>
+    <nav className= {isOpen ? 'isOpen' : ''} >
       <button className='mainNavBtn' onClick={() => setIsOpen(!isOpen)}>
         {/* Here, you could add an SVG or icon for the hamburger menu */}
         Menu

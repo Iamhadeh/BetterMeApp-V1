@@ -18,6 +18,7 @@ import EmotionalIntelligence from "./routes/EmotionalIntelligence";
 import CriticalThinking from "./routes/CriticialThinking";
 import TimeManagement from "./routes/TimeManagement.jsx";
 import Sales from "./routes/Sales.jsx";
+import AccountPage from "./routes/AccountPage.jsx";
 
 import WhatIsCreativity from "./routes/routesSubpages/CreativityTopicsPages/WhatIsCreativitity.jsx";
 
@@ -67,6 +68,11 @@ const router = createBrowserRouter([
     {
       path: "/sales",
       element: <Sales />,
+    },
+
+    {
+      path: "/sign-up-page",
+      element: <AccountPage />,
     },
 
     {
