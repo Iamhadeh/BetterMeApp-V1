@@ -14,11 +14,6 @@ import NavigationBar from "../components/HamburgerMenu";
 
 function Root () {
 
-  function handleChange () {
-    console.log("login")
-}
-
-
     return (
       <>
       <main>
@@ -40,19 +35,8 @@ function Root () {
        <div className="mainBox">
          <button className="btnMain"> <Link to={'home/startlearning'}> Start Learning</Link> </button>
          <button className="btnMain">Take A Test</button>
-         <button onClick={handleChange} className="btnMain">Analytics</button>
+         <button  className="btnMain">Analytics</button>
        </div>
-       {/* <div className="SecondBox">
-          <div className="innerBox1">
-            <img  className="img1" src="https://images.unsplash.com/photo-1531498352491-042fbae4cf57" alt="" />
-            <img className="img2" src="https://images.unsplash.com/photo-1563132337-f159f484226c" alt="" />
-            <img className="img3" src="https://images.unsplash.com/photo-1582750433449-648ed127bb54" alt="" />
-          </div>
-          <div className="innerBox">
-            <h2>The Best Resources On Soft Skills</h2>
-            <p>You have learned the hard skills, what makes you good at what you do. It's time to learn what makes you with dealing with people and your performances. Go through the best resources to learn soft skills from the world experts in sales, productivity, critical thinking, emotional intelligence. etc.</p>
-          </div>
-        </div> */}
        <Footer/>
       </main>
     </>

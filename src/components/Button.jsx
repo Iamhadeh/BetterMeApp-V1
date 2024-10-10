@@ -6,7 +6,7 @@ function ButtonsProps (props) {
     return (
         <>
          <button className="BtnLearn">
-            <Link to={props.link}>{props.name}</Link>
+            <Link to={props.link}> {props.name}</Link>
         </button>
     </>
     );
