@@ -26,7 +26,8 @@ import AccountPage from "./routes/AccountPage.jsx";
 import WhatIsCreativity from "./routes/routesSubpages/CreativityTopicsPages/WhatIsCreativitity.jsx";
 import WhyItMatters from "./routes/routesSubpages/CreativityTopicsPages/WhyDoesItMatter.jsx";
 import HistoryCreativity from "./routes/routesSubpages/CreativityTopicsPages/HistoryofCreativity.jsx";
-
+import CreativeMythsNFactsPage from "./routes/routesSubpages/CreativityTopicsPages/CreativeMythsNFacts.jsx";
+import MostCreativePeoplePage from "./routes/routesSubpages/CreativityTopicsPages/MostCreativePeople.jsx";
 
 
 const router = createBrowserRouter([
@@ -94,6 +95,16 @@ const router = createBrowserRouter([
     {
       path: "/history-of-creativity",
       element: <HistoryCreativity />,
+    },
+
+    {
+      path: "/creativity-myths-facts",
+      element: <CreativeMythsNFactsPage />,
+    },
+
+    {
+      path: "/world-most-creative-people",
+      element: <MostCreativePeoplePage />,
     },
 
   ]); 

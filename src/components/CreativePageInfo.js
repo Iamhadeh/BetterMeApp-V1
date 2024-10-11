@@ -15,7 +15,7 @@ const FundamentalButtons = [
     }, 
     {
         name:" Myths $ Facts",
-        link:"creativity-myths-facts"
+        link:"/creativity-myths-facts"
     }, 
     {
         name:"Tools",
@@ -23,7 +23,7 @@ const FundamentalButtons = [
     },
     {
         name:"World Most Creative People",
-        link:"world-most-creative-people"
+        link:"/world-most-creative-people"
     }, 
     {
         name:"Interviews/speeches",
