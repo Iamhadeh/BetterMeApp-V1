@@ -306,7 +306,7 @@ button:hover {
 .resources {
   height: 200px;
   padding-left: 50px;
-  background-color: rgb(14 13 13 / 0.08);
+  background-color: rgb(14 13 13 / 0.5);
   width: 1200px;
   grid-row-start: 2;
   grid-row-end: 3;
@@ -370,7 +370,7 @@ p {
   width: 1200px;
   grid-column-start: 2;
   grid-column-end: 3;
-  background-color: rgb(14 13 13 / 0.08);
+  background-color: rgb(14 13 13 / 0.5);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -433,7 +433,7 @@ p {
 
 .BtnLearn:hover {
   font-weight: bolder;
-  border-radius: 5px;
+  border-radius: 8px;
   background-color: brown;
   border: 2px solid black;
   cursor: pointer;
@@ -941,7 +941,7 @@ Writing things here so it's easy to spot where the media queries from the right 
   
   .resources {
     height: 300px;
-    width: 520px;
+    width: 480px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -956,10 +956,14 @@ Writing things here so it's easy to spot where the media queries from the right 
   
   .resCon {
     height: 160px;
-    width: 480px;
+    width: 400px;
     display: flex;
     gap: 10px;
     padding-left: 0px;
+  }
+
+  .resCon p {
+    padding-left: 20px;
   }
   
   .sideBar { 
@@ -996,7 +1000,7 @@ Writing things here so it's easy to spot where the media queries from the right 
     width: 480px;
     justify-content: center;
     /* align-items: center; */
-    background-color: rgb(14 13 13 / 0.08);
+    background-color: rgb(14 13 13 / 0.5);
   }
   
   .divBox2 {
@@ -1007,6 +1011,7 @@ Writing things here so it's easy to spot where the media queries from the right 
     justify-content: center;
     /* align-items: center; */
     gap: 0px;
+    background-color: rgb(14 13 13 /0.5)
   }
   
   .textFont {
@@ -1524,12 +1529,16 @@ Writing things here so it's easy to spot where the media queries from the right 
   .resources {
     /* height: 300px; */
     width: 400px;
+    background-color: rgb(14 13 13 /0.5)
+   
     /* display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding-left: 0px; */
   }
+
+
   
   
   .resources h3 {
@@ -2014,7 +2023,10 @@ footer {
   justify-content: center;
   align-items: center;
   padding-left: 0px;
+  background-color: rgb(14 13 13 /0.5)
 }
+
+
 
 
 .resources h3 {
@@ -2063,7 +2075,7 @@ p {
   width: 400px;
   justify-content: center;
   align-items: center;
-  background-color: rgb(14 13 13 / 0.08);
+  background-color: rgb(14 13 13 / 0.5);
 }
 
 .divBox2 {
@@ -2428,11 +2440,16 @@ input {
     justify-content: center;
     align-items: center;
     padding-left: 0px; */
+    background-color: rgb(14 13 13 /0.5)
   }
   
   
   .resources h3 {
     width: 300px;
+  }
+
+  .resCon p {
+    padding-left: 20px;
   }
   
   .resCon {
@@ -2441,6 +2458,7 @@ input {
     display: flex;
     gap: 10px;
     padding-left: 0px;
+    
   }
   
   .sideBar { 
@@ -2478,7 +2496,7 @@ input {
     width: 320px;
     justify-content: center;
     align-items: center;
-    background-color: rgb(14 13 13 / 0.08);
+    background-color: rgb(14 13 13 / 0.5);
   }
   
   .divBox2 {
