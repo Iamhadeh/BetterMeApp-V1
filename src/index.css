@@ -720,6 +720,7 @@ Writing things here so it's easy to spot where the media queries from the right 
 }
 
 
+/* Media query */
 
  
 @media screen and (max-width: 520px) {
@@ -1275,6 +1276,629 @@ Writing things here so it's easy to spot where the media queries from the right 
 
 
 }
+
+
+
+/* Another Media Query  */
+
+
+
+@media screen and (max-width: 428px) {
+
+  body {
+    width: 428px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; */
+  }
+    
+  
+  /* h2 {
+    font-size: 1.6rem;
+  }
+  
+  .welcomeH3 {
+    font-family: "Caveat", system-ui;
+    height: 20px;
+  }
+  
+  
+  
+  main {
+    margin: 0px;
+    padding: 0px;
+    margin-top: 0px;
+  }  */
+
+  .subPageH1 {
+    font-size: 1.5rem;
+  }
+  
+  menu {
+    display: none;
+    /* width: 520px;
+    height: 40px;
+    justify-content: center;
+    gap: 10px;
+    background-color: black;
+    align-items: center;
+    margin: 0px;
+    padding: 0px; */
+  }
+
+
+  
+  /* Hamburger menu */
+
+  nav {
+    /* display: block;
+    height: 40px; */
+    width: 428px;
+    /* background-color: black;
+    padding-top: 7px;
+    padding-left: 10px;
+     z-index: 1; */
+  }
+
+  /* nav .menuBtn {
+    display: none;
+    z-index: 1;
+    background-color: black;
+  } */
+/* 
+
+  nav .mainNavBtn {
+    display: block;
+  } */
+
+  /* If the menu is open, we'll display the links */
+ 
+ 
+  .isOpen .menuBtn {
+    display: block;
+  }
+
+  .hamCon {
+    height: 300px;
+    width: 270px;
+    gap: 20px;
+    /* background-color: black;
+    border: 2px solid brown;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10px;
+    position: relative;
+    z-index: 1; */
+  }
+
+  
+ 
+
+  /* .menuContainer {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 250px;
+    background-color: black;
+    gap: 10px;
+    padding-left: 20px;
+  } */
+
+
+
+  /* .menuContainer button {
+    width: 100px;
+    height: 35px;
+  }
+  
+  .HideMenu {
+    display: none;
+  } */
+  
+
+
+  /* .menuBtn {
+    color: skyblue;
+    border: 3px solid skyblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 80px;
+    height: 25px;
+    background-color: black;
+    border-radius: 25px;
+  } */
+
+
+
+
+  
+  
+  .mainBox {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; */
+    width: 428px;
+    height: 240px;
+  }
+  
+  /* .mainBox > button {
+    height: 40px;
+    width: 150px;
+  }
+
+  .mainH2, .mainH1 {
+    z-index: -1;
+  } */
+  
+
+  .mainBox > button:hover {
+    background-color: brown;
+  }
+  
+  header {
+    /* flex-direction: column; */
+    width: 428px;
+    /* height: 700px;
+    gap: 10px; */
+  }
+
+  
+  /* .headerBox1, .headerBox2 {
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    gap: 10px;
+    flex-direction: column;
+    height: 300px;
+    width: 300px;
+  }
+  
+  
+  .headerBox2 > img {
+    height: 280px;
+    width: 280px;
+  } */
+  
+
+  footer {
+    width: 428px;
+    height: 55px;
+  }
+  
+  footer > h3 {
+    font-size: 1.0rem;
+  }
+  
+  .socialIcon {
+    height: 12px;
+    position: relative;
+  }
+  
+  .footerIcons {
+    width: 200px;
+  }
+  
+  
+  button {
+    color: skyblue;
+  }
+  
+  button:hover {
+    cursor: pointer;
+  }
+  
+  
+
+  
+  /* styling for creativepage */
+
+
+  
+  .mainDiv {
+    /* height: fit-content;
+    padding-bottom: 50px; */
+    width: 428px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+  }
+
+  .mainDiv h1 {
+    padding-left: 20px;
+  }
+  
+  
+  
+  .titleBox {
+    /* background-color: skyblue;
+    height: 40px; */
+    width: 428px;
+  }
+  
+  .resources {
+    /* height: 300px; */
+    width: 400px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0px; */
+  }
+  
+  
+  .resources h3 {
+    width: 360px;
+    padding-left: 20px;
+  }
+  
+  .resCon {
+    /* height: 160px; */
+    width: 360px;
+    /* display: flex;
+    gap: 10px;
+    padding-left: 0px; */
+  }
+
+  .resCon p {
+    padding-left: 20px;
+    padding-top: 20px;
+  }
+  
+  .sideBar { 
+    display: none;
+  }
+  
+  /* .BtnSideBar {
+    width: 180px;
+    border-radius: 12px;
+    height: 40px;
+    border-radius: 5px;
+  }
+  
+  .BtnSideBar:hover {
+    font-weight: bolder;
+    cursor: pointer;
+  }
+   */
+  
+
+  /* p {
+    font-weight: bolder;
+  }
+  
+  .resCon:hover{
+    border-top: 1px solid brown;
+    border-bottom: 1px solid brown;
+  } */
+  
+  
+  .divBox1, .divBox3 {
+    /* display: flex;
+    flex-wrap: wrap;
+     */
+     height: 420px;
+    width: 400px;
+    /* justify-content: center;
+    background-color: rgb(14 13 13 / 0.08); */
+  }
+  
+  .divBox2 {
+    /* display: flex;
+    flex-wrap: wrap;
+    height: 600px; */
+    height: 420px;
+    width: 400px;
+    /* justify-content: center;
+    gap: 0px; */
+  }
+
+  
+  /* .textFont {
+    text-align: start; 
+    height: 100%;
+  } */
+  
+  
+  
+  
+  .container {
+    height: 320px;
+    width: 360px;
+    display: inline-block;
+    gap: 30px;
+    padding-top: 20px;
+  }
+
+/*   
+  .container .BtnLearn {
+    margin-top: 20px;
+    margin-left: 2px;
+  }
+  
+  .h3Font {
+    font-size: 1.4rem;
+    font-weight: bolder;
+    color: brown;
+  }
+    */
+
+
+    .BtnLearn {
+      width: 170px;
+      /* border-radius: 10px;
+      height: 42px;
+      font-size: 0.70rem; */
+    }
+    
+    .BtnLearn:hover {
+      width: 170px;
+      height: 43.5px;
+      /* font-weight: inherit;
+      height: 45px;
+      font-size: 0.70rem;
+      border-radius: 8px;
+      background-color: brown;
+      border: 2px solid black;
+      cursor: pointer; */
+    }
+  
+  
+  
+
+  
+  
+  
+  /* Start Learning page  */
+  
+  
+  .mainSLP {
+    width: 428px;
+    height: fit-content;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    padding-top: 200px;
+    padding-bottom: 200px;
+  }
+  
+  .searchdiv {
+    width: 360px;
+    /* height: fit-content;
+    display: flex;
+    justify-content: center; */
+  }
+  
+
+  /* input {
+    border-radius: 10px;
+  } */
+  
+  .pickLesson {
+    width: 360px;
+    /* background-color: rgb(128 188 212/ 0.7);
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: baseline;
+    height: fit-content;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    border-top: 1px solid brown; */
+  }
+  
+  .skills {
+    /* height: 30px; */
+
+    width: 140px;
+
+
+    /* background-color: black;
+    font-size: 12px;
+    color: skyblue;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 20px; */
+  } 
+  
+  
+  .skills:hover {
+    width: 140px;
+    
+    /* height: 30px;
+    background-color: brown;
+    color: skyblue;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 20px; */
+  } 
+  
+
+
+
+  
+  
+  /* Aboutpage css  */
+  
+  
+  .containerAbout {
+    width: 428px;
+    /* height: fit-content;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    justify-content: center;
+    align-items: center;
+    gap: 50px; */
+  }
+  
+  .divInsideAbout1 {
+    /* background-color: rgba(62, 155, 192, 0.3);
+    height: 800px; */
+    width: 360px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    gap: 20px;
+    border-top: 1px solid brown;
+    border-bottom: 1px solid brown; */
+  
+  }
+  
+  .divInsideAbout {
+    /* background-color: rgba(62, 155, 192, 0.3);
+    height: 450px; */
+
+    width: 360px;
+
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+
+
+    /* padding-left: 20px;
+    padding-right: 20px; */
+
+
+    /* gap: 20px;
+    border-top: 1px solid brown;
+    border-bottom: 1px solid brown; */
+  }
+  
+  
+  /* .imgAbout {
+    height: 240px;
+    width: 240px;
+  }  */
+
+
+
+
+
+  /* signup page */ 
+
+
+
+
+.mainSPDiv {
+  width: 428px;
+}
+  
+  
+
+  /* Inprogress page css */
+  
+  .mainDivInprogressPage {
+    /* height: fit-content;
+    padding-top: 200px;
+    padding-bottom: 200px; */
+    
+    width: 428px;
+    
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+  }
+
+
+
+
+
+   /* Subpages css */
+
+
+ .pageContainer {
+  width: 428px;
+
+  /* height: fit-content;
+  padding: 25px;
+  background-color: rgb(0 0 0/ 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center; */
+ }
+
+ .heading {
+  height: 150px;
+
+  width: 428px;
+
+  /* padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px; */
+ }
+
+ .contentMainBox {
+  width: 360px;
+  /* height: fit-content;
+  padding: 20px;
+  background-color: white;
+  gap: 50px;
+  border-top: 2px solid brown;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  border-top: 2px solid brown;
+  justify-content: center;
+  align-items: center; */
+ }
+ 
+.eachTopic { 
+  width: 300px;
+  height: 60px;
+  border-radius: 8px;
+}
+
+.eachTopic a { 
+  /* color: brown;
+  font-weight: bold; */
+  font-size: 12px;
+}
+
+
+.eachTopic a:hover { 
+  /* color: brown;
+  font-weight: bold; */
+  font-size: 13px;
+}
+
+
+.eachTopic p { 
+  /* color: skyblue; */
+  color: brown;
+  font-size: 10px;
+}
+
+.boldText {
+  font-weight: 900;
+  font-family: 'Courier New', Courier, monospace; 
+}
+
+
+}
+
+
 
 
 

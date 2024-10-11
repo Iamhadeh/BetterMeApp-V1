@@ -1,34 +1,40 @@
+
+
+
+
+
+
 import Menu from "../../../components/menu";
 import NavigationBar from "../../../components/HamburgerMenu";
 import Footer from "../../../components/footer";
 import { Link } from "react-router-dom";
 import EachResourceDetail from "../../../components/mainLink";
-import CreativityResource from "./WhatIsCreativity";
+import {HistoryOfCreativityResources} from "./WhatIsCreativity";
 
 
 
 
 
-function CreateButtons (CreativityResource) {
+function CreateButtons (HistoryOfCreativityResources) {
     return (
         <EachResourceDetail
-        title={CreativityResource.title}
-        link={CreativityResource.link}
-        authorName={CreativityResource.authorName}
-        type={CreativityResource.type}
+        title={HistoryOfCreativityResources.title}
+        link={HistoryOfCreativityResources.link}
+        authorName={HistoryOfCreativityResources.authorName}
+        type={HistoryOfCreativityResources.type}
         />
     )
 }
 
 
-function WhatIsCreativity () {
+function HistoryCreativity () {
     return (
         <>
         <Menu/>
         <NavigationBar/>
         <div className="heading">
             <p>Go back to   <button> <Link to= {"/creativity"} > Creativity </Link> </button></p>
-            <h1 className="subPageH1">What is Creativity?</h1>
+            <h1 className="subPageH1">History of Creativity</h1>
         </div> 
         <div className="searchdiv">
                  <input type="text" />
@@ -37,7 +43,7 @@ function WhatIsCreativity () {
        
         <div className="pageContainer">
             <div className="contentMainBox">
-                {CreativityResource.map(CreateButtons)}
+                {HistoryOfCreativityResources.map(CreateButtons)}
             </div>
         </div>
         <Footer/>
@@ -46,4 +52,4 @@ function WhatIsCreativity () {
 }
 
 
-export default WhatIsCreativity;
+export default HistoryCreativity;

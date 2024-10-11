@@ -9,6 +9,7 @@ import "./index.css";
 
 import Root from "./routes/root";
 
+//main subpages
 import ErrorPage from "./error-page";
 import Creativity from "./routes/creativityPage";
 import StartLearning from "./routes/StartLearningPage";
@@ -20,7 +21,12 @@ import TimeManagement from "./routes/TimeManagement.jsx";
 import Sales from "./routes/Sales.jsx";
 import AccountPage from "./routes/AccountPage.jsx";
 
+
+//creativity subpages
 import WhatIsCreativity from "./routes/routesSubpages/CreativityTopicsPages/WhatIsCreativitity.jsx";
+import WhyItMatters from "./routes/routesSubpages/CreativityTopicsPages/WhyDoesItMatter.jsx";
+import HistoryCreativity from "./routes/routesSubpages/CreativityTopicsPages/HistoryofCreativity.jsx";
+
 
 
 const router = createBrowserRouter([
@@ -79,6 +85,17 @@ const router = createBrowserRouter([
       path: "/what-is-creativity",
       element: <WhatIsCreativity />,
     },
+
+    {
+      path: "/why-it-matters",
+      element: <WhyItMatters />,
+    },
+
+    {
+      path: "/history-of-creativity",
+      element: <HistoryCreativity />,
+    },
+
   ]); 
     
 
