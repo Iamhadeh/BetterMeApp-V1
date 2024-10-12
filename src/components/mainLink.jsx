@@ -15,4 +15,19 @@ function EachResourceDetail (props) {
     )
 }
 
+
+function CreativeToolDiv (props) {
+    return (
+        <>
+        <a href={props.link}>
+        <div className="eachTopic" >
+            <a href={props.link}> {props.title} </a>
+            <p>{props.description}</p>
+        </div>
+        </a>
+        </>
+    )
+}
+
 export default EachResourceDetail;
+export {CreativeToolDiv}

@@ -120,6 +120,7 @@ const HistoryOfCreativityResources   = [
 
 // myths and facts
 
+
 const CreativeMythsNFacts   = [
     
     {
@@ -192,21 +193,41 @@ const MostCreativePeople = [
 
     {
         id: 6,
-        title:"Einstein's creative thinking and the general theory of...",
-        link:"https://pubmed.ncbi.nlm.nih.gov/365000/",
-        authorName:"National Library of Medicine",
-        type:"Article"
-    },
-
-    {
-        id: 7,
         title:"Lessons from Steve Jobs on Creating Innovative Breakthroughs",
         link:"https://www.nexpcb.com/blog/steve-jobs-lessons-innovation",
         authorName:"NextPCB",
         type:"Article"
     },
 
+]
+
+
+
+const CreativeTools   = [
     
+    {
+        id: 1,
+        title:"Evernote",
+        link:"https://www.sciencedirect.com/science/article/pii/S0191886921004451",
+        description:"Note and plannning app"
+    },
+
+    {
+        id:2,
+        title:"Creativity: Myths, Facts, and Boosters",
+        link:"https://innovationlab.net/blog/creativity-myths-facts-and-creative-boosters/",
+        authorName:" Inovation Lab ",
+        type:"Article"
+    },
+
+    {
+        id: 3,
+        title:"15 Myths About Creativity",
+        link:"https://www.psychologytoday.com/us/blog/social-instincts/202107/15-myths-about-creativity",
+        authorName:" Psychology Today ",
+        type:"Article"
+    },
+
 ]
 
 
@@ -216,4 +237,5 @@ const MostCreativePeople = [
 
 
 export default CreativityResource;
-export {WhyDoesItMatter, HistoryOfCreativityResources, CreativeMythsNFacts, MostCreativePeople};
+export {WhyDoesItMatter, HistoryOfCreativityResources, 
+    CreativeMythsNFacts, MostCreativePeople, CreativeTools};

@@ -28,7 +28,7 @@ import WhyItMatters from "./routes/routesSubpages/CreativityTopicsPages/WhyDoesI
 import HistoryCreativity from "./routes/routesSubpages/CreativityTopicsPages/HistoryofCreativity.jsx";
 import CreativeMythsNFactsPage from "./routes/routesSubpages/CreativityTopicsPages/CreativeMythsNFacts.jsx";
 import MostCreativePeoplePage from "./routes/routesSubpages/CreativityTopicsPages/MostCreativePeople.jsx";
-
+import CreativeToolsPage from "./routes/routesSubpages/CreativityTopicsPages/CreativeToolsPage.jsx";
 
 const router = createBrowserRouter([
   {
@@ -105,6 +105,11 @@ const router = createBrowserRouter([
     {
       path: "/world-most-creative-people",
       element: <MostCreativePeoplePage />,
+    },
+
+    {
+      path: "/creativity-tools",
+      element: <CreativeToolsPage />,
     },
 
   ]); 
