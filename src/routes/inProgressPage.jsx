@@ -5,7 +5,7 @@ function Inprogress() {
         <>
         <div className="mainDivInprogressPage">
         <p>This page isn't available for now...</p>
-            <h2>Sorry About That...☹️</h2>
+            <h2 className="sorryText" >Sorry About That...☹️</h2>
             <h3>Please check back later.</h3>
         </div>
         </>

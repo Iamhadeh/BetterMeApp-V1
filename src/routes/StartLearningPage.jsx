@@ -2,25 +2,23 @@
 
 import Menu from "../components/menu";
 import Footer from "../components/footer";
-import {SkillProps} from "../components/Button";
-import softskills from "../components/SoftSkilloptions";
+// import {SkillProps} from "../components/Button";
+// import softskills from "../components/SoftSkilloptions";
 import NavigationBar from "../components/HamburgerMenu";
+import SearchBtn from "../components/searchButton";
 
 
-function createButton (softskills) {
-    return (
-        <SkillProps
-        link={softskills.link}
-        name={softskills.name}
-        />
-    )
-}
-
-// function CreateHowTos (HowToButtons) {
+// function createButton (softskills) {
 //     return (
-//         <ButtonsProps name={HowToButtons.name}/>
+//         <SkillProps
+//         link={softskills.link}
+//         name={softskills.name}
+//         key={softskills.id}
+//         />
 //     )
 // }
+
+
 
 
 function StartLearning() {
@@ -31,18 +29,18 @@ function StartLearning() {
         <div className="mainSLP">
            
             <div>
-                <div className="searchdiv"> 
-                    <input type="text" />
-                    <button className="SearchBtn">Search</button>
-                </div>
-                <div className="pickLesson">
-                {softskills.map(createButton)}
-                </div>
+                <SearchBtn/>
+                {/* <div className="pickLesson">
+                    {softskills.map(createButton)}
+                </div> */}
             </div>
         </div>
          <Footer/>
          </>
     )
 }
+
+
+
 
 export default StartLearning;

@@ -22,5 +22,8 @@ function SkillProps (props) {
 }
 
 
+
+
+
 export default ButtonsProps;
 export {SkillProps};
