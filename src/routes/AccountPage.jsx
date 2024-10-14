@@ -8,20 +8,28 @@ import { useState } from "react";
 
 function AccountPage () {
 
-    const [intialLogin, setLogin] =  useState ("hideLogin")
     const [signup, setSignup] = useState("signup")
+    const [intialLogin, setLogin] =  useState ("hideLogin")
+    const [logLine, setLoginLine] = useState("loginCom")
+    const [initialLoginLine, setInitialLoginLine] = useState("hideLogin")
+    const [signupLine, setSignupLine] = useState("signUpLine")
     // const [comLine, setComLine] = useState("comLine")
     // const [comLine2, setComLine2] = useState("hideLogin")
 
     function changeToLogin () {
         setLogin( "login")
         setSignup("hideLogin")
+        setLoginLine("hideLogin")
+        setInitialLoginLine("signUpLine")
+        
     }
 
-    function changeToSignIn () {
-        SetLogin( "hideLogin" && intialLogin)
-        setSignup("signup")
-    }
+    // function changeToSignIn () {
+    //     setSignup("signup")
+    //     // setLoginLine ("hideLogin")
+    //     // setSignupLine ("hideLogin")
+    //     // SetLogin(intialLogin)
+    // }
     // const [logIn, setLogin] = useState(false);
 
 
@@ -40,24 +48,23 @@ function AccountPage () {
          <input name="confirmPassword" type="text"  placeholder="Confirm password"/>
          <button>Sign up</button>
       </div>
-       <div > <p>Already a member? please <span onClick={changeToLogin} className="loginCom" > login  </span>  instead. </p> </div>
+       <div className={logLine} > <p>Already a member? please <span onClick={changeToLogin} className="loginText" > login  </span>  instead. </p> </div>
 
       {/* <div className="mainAccountBtns">
             <button onClick={changeToSignIn} >Sign Up</button>
             <button onClick={changeToLogin} >Log In</button>
         </div> */}
 
-        <div> 
-           <div className={intialLogin}> 
+        <div className={intialLogin} >  
+           <div  > 
               <input name="fullName" type="text" placeholder="Your name" />
               <input name="email" type="text" placeholder="Your email address" />
               <button>LogIn</button>  
             </div>
-            <div> 
-               <p> Not a member? please <span onClick={changeToSignIn} className="loginCom" > Sign Up  </span>  instead. </p> 
-            </div>
         </div>
-
+        {/* <div className={initialLoginLine} > 
+               <p> Not a member? please <span onClick={changeToSignIn} className="signUpText" > Sign Up  </span>  instead. </p> 
+        </div> */}
     </div> 
     </>
      )

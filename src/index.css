@@ -20,7 +20,7 @@ h1 {
 
 h2 {
   font-size: 2rem;
-  color: brown;
+  color: beige;
   font-family: "Caveat", system-ui;
   font-weight: bolder;
 }
@@ -28,6 +28,7 @@ h2 {
 .welcomeH3 {
   font-family: "Caveat", system-ui;
   height: 50px;
+  color: beige;
 }
 
 h3 {
@@ -48,7 +49,7 @@ h1, h2 {
 
 body {
   background-color: skyblue;
-  width: 1400px;
+  width: 1440px;
   margin: 0px;
   padding: 0px;
 } 
@@ -61,7 +62,7 @@ main {
 
 menu {
   display: flex;
-  width: 1400px;
+  width: 1440px;
   height: 40px;
   justify-content: center;
   gap: 10px;
@@ -85,14 +86,23 @@ nav button {
 
 
 .menuBtn {
-  color: skyblue;
+  color: black;
   border: 3px solid skyblue;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   width: 80px;
   height: 25px;
-  background-color: black;
+  background-color: skyblue; 
   border-radius: 25px;
+}
 
+.menuBtn:hover {
+  color: black;
+  border: 3px solid skyblue;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  width: 80px;
+  height: 25px;
+  background-color: beige;
+  border-radius: 25px;
 }
 
 
@@ -101,7 +111,7 @@ nav button {
   justify-content: center;
   justify-content: center;
   gap: 30px;
-  width: 1400px;
+  width: 1440px;
   height: 100px;
 }
 
@@ -116,12 +126,12 @@ nav button {
 }
 
 .mainBox > button:hover {
-  color: skyblue;
+  color: black;
   font-weight: bolder;
   height: 40px;
   width: 150px;
   border-radius: 20px;
-  background-color: brown;
+  background-color: beige;
   border: 3px solid black;
   cursor: pointer;
 }
@@ -130,7 +140,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 1400px;
+  width: 1440px;
   height: 500px;
 }
 
@@ -146,7 +156,7 @@ header {
 
 .headerBox2 {
    border-radius: 50%;
-   background-color: brown; 
+   background-color: beige; 
    display: flex;
    justify-content: center;
    align-items: center;
@@ -160,60 +170,6 @@ header {
 }
 
 
-/* 
-
-.SecondBox {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 1400px;
-  height: 500px;
-  gap: 20px;
-}
-
-.innerBox, .innerBox1 {
-  display: flex;
-  padding: 0px;
-  margin: 0px;
-  gap: 10px;
-  flex-direction: column;
-  height: 340px;
-  width: 340px;
-}
-
-.innerBox {
-  gap: 30px;
-  padding-top: 20px;
-}
-
-.innerBox1 {
-  padding-top: 20px;
-  display: grid;
-  grid-template-columns: 150px 200px;
-  grid-template-rows: 150px 200px;
-  gap: 10px;
-  padding-left: 20px;
-  border: 1px solid brown;
-}
-
-.img {
-  width: 150px;
-  height: 200px;
-}
-
-
-.innerBox1 img {
-  height: 150px;
-  width: 150px;
-}
-
-.img3 {
-  width: 200px;
-  height: 150px;
-  border-radius: 50%;
-
-} */
-
 
 /* ..... */
 
@@ -225,7 +181,7 @@ footer {
   color: skyblue;
   display: flex;
   flex-direction: column;
-  width: 1400px;
+  width: 1440px;
   height: 55px;
   margin: 0px;
   padding: 0px;
@@ -272,13 +228,11 @@ button {
 }
 
 button:hover {
-  background-color: brown;
+  background-color: beige;
   cursor: pointer;
 }
 
-.page {
-  background-color: white;
-}
+
 
 
 /* styling for creativepage */
@@ -286,9 +240,9 @@ button:hover {
 .mainDiv {
   height: 900px;
   background-color: skyblue;
-  width: 1400px;
+  width: 1440px;
   display: grid;
-  grid-template-columns: 200px 1200px;
+  grid-template-columns: 200px 1240px;
   grid-template-rows: 40px, 200px 200px 200px 200px;
   gap: 0px;
   margin: 0px;
@@ -298,7 +252,7 @@ button:hover {
 .titleBox {
   background-color: skyblue;
   height: 40px;
-  width: 1400px;
+  width: 1440px;
   grid-row-start: 1;
   grid-row-end: 2;
   grid-column-start: 1;
@@ -308,8 +262,8 @@ button:hover {
 .resources {
   height: 200px;
   padding-left: 50px;
-  background-color: rgb(14 13 13 / 0.5);
-  width: 1200px;
+  background-color: rgb(14 13 13 / 0.2);
+  width: 1240px;
   grid-row-start: 2;
   grid-row-end: 3;
   grid-column-start: 2;
@@ -323,7 +277,7 @@ button:hover {
   grid-row-end: 7;
   grid-column-start: 1;
   grid-column-end: 2;
-  border: 1px solid brown;
+  border: 1px solid beige;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -332,17 +286,17 @@ button:hover {
 
 .BtnSideBar {
   width: 180px;
-  border-radius: 12px;
+  border-radius: 20px;
   height: 40px;
-  border-radius: 5px;
 }
 
 .BtnSideBar:hover {
   font-weight: bolder;
-  border-radius: 5px;
-  background-color: brown;
+  border-radius: 20px;
+  background-color: beige;
   border: 2px solid black;
   cursor: pointer;
+  color: black;
 }
 
 .resCon {
@@ -363,20 +317,20 @@ p {
 }
 
 .resCon:hover{
-  border-top: 1px solid brown;
-  border-bottom: 1px solid brown;
+  border-top: 1px solid beige;
 }
 
 .divBox1, .divBox2, .divBox3 {
   height: 200px;
-  width: 1200px;
+  width: 1240px;
   grid-column-start: 2;
   grid-column-end: 3;
-  background-color: rgb(14 13 13 / 0.5);
+  /* background-color: rgb(14 13 13 / 0.1); */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  border: 1px solid beige;
 }
 
 .textFont {
@@ -409,64 +363,49 @@ p {
 }
 
 .container {
-  height: 120px;
-  width: 1100px;
+  height: 130px;
+  width: 1140px;
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
   align-items: center;
-  background-color: skyblue;
+  background-color: rgb(0 0 0 /0.1);
   padding-left: 10px;
+  
   /* justify-content: center; */
 }
 
 .h3Font {
-  font-size: 1.7rem;
+  font-size: 1.1rem;
   font-weight: bolder;
-  color: brown;
+  color: black;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 
 .BtnLearn {
   width: 260px;
-  border-radius: 10px;
+  border-radius: 15px;
   height: 45px;
+  border: 0px solid beige;
 }
 
 .BtnLearn:hover {
   font-weight: bolder;
-  border-radius: 8px;
-  background-color: brown;
+  border-radius: 15px;
+  background-color: beige;
   border: 2px solid black;
   cursor: pointer;
+  color: black;
 }
 
-.popUp {
-  background-color: hsl(197 69% 70% / 0.9);
-  width: 1000px;
-  height: 800px;
-  display: none;
-  position: fixed;
-  left: 300px;
-  top: 100px;
-  border: solid 4px brown;
-}
-
-.starSign {
-  width: 40px;
-  height: 40px;
-  position: absolute;
-  background-color: brown;
-  top: 0px;
-  left: 955px;
-}
 
 
 /* Start Learning page  */
 
 
 .mainSLP {
-  width: 1400px;
+  width: 1440px;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -475,7 +414,7 @@ p {
 }
 
 .searchdiv {
-  width: 1200px;
+  width: 1240px;
   height: fit-content;
   display: flex;
   justify-content: center;
@@ -487,7 +426,7 @@ input {
 
 .pickLesson {
   width: 1200px;
-  background-color: rgb(128 188 212/ 0.7);
+  background-color: rgb(0 0 0/0.1);
   display: flex;
   gap: 20px;
   flex-wrap: wrap;
@@ -495,7 +434,7 @@ input {
   height: fit-content;
   margin-top: 20px;
   padding-bottom: 20px;
-  border-top: 1px solid brown;
+  border-top: 1px solid beige;
 }
 
 .skills {
@@ -503,7 +442,7 @@ input {
   width: 200px;
   background-color: black;
   color: skyblue;
-  border-radius: 5px;
+  border-radius: 15px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -513,17 +452,18 @@ input {
 
 
 .skills:hover {
-  border-radius: 2px;
-  background-color: brown;
+  border-radius: 15px;
+  background-color: beige;
   border: 2px solid black;
   cursor: pointer;
+  color: black;
 }
 
 /* Aboutpage css  */
 
 
 .containerAbout {
-  width: 1400px;
+  width: 1440px;
   display: flex;
   flex-direction: column;
   height: fit-content;
@@ -533,7 +473,7 @@ input {
 }
 
 .divInsideAbout, .divInsideAbout1 {
-  background-color: rgba(56, 161, 202, 0.3);
+  background-color: rgb(0 0 0/0.05);
   height: 600px;
   width: 600px;
   display: flex;
@@ -543,17 +483,17 @@ input {
   padding-left: 20px;
   padding-right: 20px;
   gap: 20px;
-  border-top: 1px solid brown;
-  border-bottom: 1px solid brown;
 }
 
 .divInsideAbout1 {
   height: 800px;
 }
 
-.divInsideAbout1 h2 {
+.divInsideAbout1 h2, .divInsideAbout h2 {
   padding: 0px;
   margin: 0px;
+  color: black;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 }
 
@@ -567,7 +507,7 @@ input {
 /* signup page */ 
 
 .mainSPDiv {
-  width: 1400px;
+  width: 1440px;
   padding: 50px;
   height: fit-content;
   display: flex;
@@ -593,15 +533,15 @@ input {
   display: none;
 }
 
-.brown {
-  background-color: brown;
-}
+
 
 
 .signup input, .login input {
   width: 200px;
   height: 30px;
   border-radius: 0px;
+  background-color: beige;
+  color: black;
 }
 
 .signup input {
@@ -610,13 +550,25 @@ input {
   border-radius: 0px;
 }
 
+.loginText, .signUpText {
+  color: beige;
+  cursor: pointer;
+  border-bottom: 1px solid black;
+}
+
+/* .signUpLine {
+  height: 50px;
+  width: 200px;
+  background-color: skyblue;
+} */
+
 
 
 /* Inprogress page */
 
 .mainDivInprogressPage {
   height: 100vh;
-  width: 1400px;
+  width: 1440px;
   display: flex;
   flex-direction: column;
   align-items: center;

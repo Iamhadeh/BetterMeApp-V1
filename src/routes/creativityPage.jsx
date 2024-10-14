@@ -45,7 +45,7 @@ function Creativity () {
             </div>
             <Sidebar/>
             <section className="resources">
-            <h3 className="h3Font">Resources</h3>
+            <h2> Resources</h2>
                 <div className="resCon">
                 <p className="textFont">Learn all the things you need to know to become a creative genius...</p>
                 </div>
