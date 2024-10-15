@@ -202,30 +202,84 @@ const MostCreativePeople = [
 ]
 
 
+// Tools
+
 
 const CreativeTools   = [
     
     {
         id: 1,
         title:"Evernote",
-        link:"https://www.sciencedirect.com/science/article/pii/S0191886921004451",
+        link:"https://evernote.com/",
         description:"Note and plannning app"
     },
 
     {
         id:2,
-        title:"Creativity: Myths, Facts, and Boosters",
-        link:"https://innovationlab.net/blog/creativity-myths-facts-and-creative-boosters/",
-        authorName:" Inovation Lab ",
-        type:"Article"
+        title:"Wordpress",
+        link:"https://wordpress.com/",
+        description:"Blogging platform"
     },
 
     {
         id: 3,
-        title:"15 Myths About Creativity",
-        link:"https://www.psychologytoday.com/us/blog/social-instincts/202107/15-myths-about-creativity",
-        authorName:" Psychology Today ",
-        type:"Article"
+        title:"Google Docs",
+        link:"https://docs.google.com/",
+        description:"Note and document creation"
+    },
+    {
+        id: 4,
+        title:"Canva",
+        link:"https://canva.com/",
+        description:"Image design tool"
+    },
+    {
+        id: 5,
+        title:"Adobe Illustrator",
+        link:"https://adobe.com/",
+        description:"Graphic Design tool"
+    },
+    {
+        id: 6,
+        title:"Animoto",
+        link:"https://animoto.com/",
+        description:"Video creation tool"
+    },
+    {
+        id: 7,
+        title:"Trello",
+        link:"https://trello.com/",
+        description:"Team/collaboration tool"
+    },
+    {
+        id: 8,
+        title:"Google Slides",
+        link:"https://workspace.google.com/products/slides/",
+        description:"Presentation and display"
+    },
+    {
+        id: 9,
+        title:"Hemmingway App",
+        link:"https://hemmingwayapp.com/",
+        description:"Writing tools"
+    },
+    {
+        id: 10,
+        title:"Davinci Resolve",
+        link:"https://www.blackmagicdesign.com/products/davinciresolve",
+        description:"Video Editing Tool"
+    },
+    {
+        id: 11,
+        title:"Mind Miester",
+        link:"https://www.mindmeister.com/",
+        description:"Brainstomring and Idea Presentation"
+    },
+    {
+        id: 12,
+        title:"Strategy Map",
+        link:"https://www.smartdraw.com/strategy-map/strategy-map-software.htm",
+        description:"Visual Planning for teams"
     },
 
 ]

@@ -33,7 +33,7 @@ function CreativeToolsPage () {
         <NavigationBar/>
         <div className="heading">
             <p>Go back to   <button> <Link to= {"/creativity"} > Creativity </Link> </button></p>
-            <h1 className="subPageH1">The Most Creative People</h1>
+            <h1 className="subPageH1">Creative Tools</h1>
         </div> 
         <div className="searchdiv">
                  <input type="text" />
