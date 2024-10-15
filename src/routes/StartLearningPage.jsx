@@ -30,12 +30,10 @@ function StartLearning() {
            
             <div>
                 <SearchBtn/>
-                {/* <div className="pickLesson">
-                    {softskills.map(createButton)}
-                </div> */}
+            
             </div>
         </div>
-         <Footer/>
+        <Footer/>
          </>
     )
 }

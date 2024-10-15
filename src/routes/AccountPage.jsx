@@ -1,5 +1,7 @@
 
 import { useState } from "react";
+import Menu from "../components/menu";
+import Footer from "../components/footer";
 
 // import { useState } from "react"
 
@@ -37,6 +39,7 @@ function AccountPage () {
 
     return (
         <>
+        <Menu/>
     <div className="mainSPDiv"> 
         <div className="mainAccountBtns">
         <h2>Please, sign up</h2>
@@ -66,6 +69,7 @@ function AccountPage () {
                <p> Not a member? please <span onClick={changeToSignIn} className="signUpText" > Sign Up  </span>  instead. </p> 
         </div> */}
     </div> 
+    <Footer/>
     </>
      )
 }
