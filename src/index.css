@@ -220,6 +220,18 @@ footer > h3 {
 }
 
 
+.goBackBtn {
+  width: fit-content;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  align-items: center;
+  height: 60px;
+}
+
+
+
+
 button {
   color: skyblue;
   border: 3px solid skyblue;
@@ -521,7 +533,6 @@ input {
   align-items: center;
   gap: 10px;
   box-sizing: border-box;
-  /* background-color: green; */
   margin: 0px;
 }
 
@@ -601,7 +612,7 @@ input {
 
  .heading {
   height: 150px;
-  width: 1400px;
+  width: 1440px;
   padding-left: 85px;
   display: flex;
   flex-direction: column;
@@ -609,12 +620,26 @@ input {
   gap: 5px;
  }
 
+ .goBackBox {
+    display: flex;
+    width: fit-content;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+ }
+
  .heading button {
-  height: 32px;
+  height: 45px;
+ }
+
+ .heading p {
+  width: 85px;
+
  }
 
  .heading button:hover {
   border: 2px solid black;
+  color: black;
  }
 
  .contentMainBox {
@@ -1052,14 +1077,14 @@ button:hover {
 
 
 .BtnLearn {
-  width: 250px;
+  width: 220px;
   border-radius: 15px;
   height: 45px;
   border: 0px solid beige;
 }
 
 .BtnLearn:hover {
-  width: 250px;
+  width: 220px;
   font-weight: bolder;
   border-radius: 15px;
   background-color: beige;
@@ -1278,11 +1303,12 @@ input {
  }
 
  .heading button {
-  height: 32px;
+  height: 45px;
  }
 
  .heading button:hover {
   border: 2px solid black;
+  color: black;
  }
 
  .contentMainBox {
@@ -1727,14 +1753,14 @@ button:hover {
 
 
 .BtnLearn {
-  width: 250px;
+  width: 220px;
   border-radius: 15px;
   height: 45px;
   border: 0px solid beige;
 }
 
 .BtnLearn:hover {
-  width: 250px;
+  width: 220px;
   font-weight: bolder;
   border-radius: 15px;
   background-color: beige;
@@ -1958,6 +1984,7 @@ input {
 
  .heading button:hover {
   border: 2px solid black;
+  color: black;
  }
 
  .contentMainBox {
@@ -2282,31 +2309,29 @@ input {
     font-weight: bolder;
   }
   
-  .resCon:hover{
+  /* .resCon:hover{
     border-top: 1px solid brown;
     border-bottom: 1px solid brown;
-  }
+  } */
   
   
   .divBox1, .divBox3 {
     display: flex;
-    flex-wrap: wrap;
-    height: 600px;
+    height: 360px;
     width: 480px;
     justify-content: center;
     /* align-items: center; */
-    background-color: rgb(14 13 13 / 0.5);
+    background-color: rgb(14 13 13 / 0.2);
   }
   
   .divBox2 {
     display: flex;
-    flex-wrap: wrap;
-    height: 600px;
+    height: 360px;
     width: 480px;
     justify-content: center;
     /* align-items: center; */
     gap: 0px;
-    background-color: rgb(14 13 13 /0.5)
+    background-color: rgb(14 13 13 /0.2)
   }
   
   .textFont {
@@ -2318,41 +2343,43 @@ input {
   
   
   .container {
-    height: 420px;
-    width: 400px;
-    display: inline-block;
-    gap: 30px;
+    height: fit-content;
+    width: 420px;
+    display: flex;
+    gap: 5px;
+    padding-left: 20px;
     /* flex-wrap: wrap; */
     padding-top: 20px;
+    padding-bottom: 20px;
   }
 
   .container .BtnLearn {
-    margin-top: 20px;
-    margin-left: 2px;
+    margin-top: 10px;
+    margin-right: 10px;
   }
   
   .h3Font {
     font-size: 1.4rem;
     font-weight: bolder;
-    color: brown;
+    /* color: brown; */
   }
   
   
   
   .BtnLearn {
-    width: 185px;
+    width: 180px;
     border-radius: 10px;
     height: 42px;
     font-size: 0.70rem;
   }
   
   .BtnLearn:hover {
-    width: 185px;
+    width: 180px;
     font-weight: inherit;
-    height: 45px;
+    height: 42px;
     font-size: 0.70rem;
-    border-radius: 8px;
-    background-color: brown;
+    border-radius: 10px;
+    /* background-color: brown; */
     border: 2px solid black;
     cursor: pointer;
   }
@@ -2613,7 +2640,8 @@ input {
   }  */
 
   .subPageH1 {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    width: 300px;
   }
   
   menu {
@@ -2825,7 +2853,8 @@ input {
   .resources {
     /* height: 300px; */
     width: 400px;
-    background-color: rgb(14 13 13 /0.2)
+    background-color: rgb(14 13 13 /0.2);
+    padding-left: 0px;
    
     /* display: flex;
     flex-direction: column;
@@ -2846,6 +2875,7 @@ input {
   .resCon {
     /* height: 160px; */
     width: 360px;
+    margin-left: 15px;
     /* display: flex;
     gap: 10px;
     padding-left: 0px; */
@@ -2888,9 +2918,11 @@ input {
     /* display: flex;
     flex-wrap: wrap;
      */
-     height: 420px;
+     height: fit-content;
     width: 400px;
     background-color: rgb(14 13 13 / 0.1);
+    padding-top: 40px;
+    padding-bottom: 40px;
 
     /* justify-content: center;
      */
@@ -2900,9 +2932,12 @@ input {
     /* display: flex;
     flex-wrap: wrap;
     height: 600px; */
-    height: 420px;
+    height: fit-content;
     width: 400px;
     background-color: rgb(14 13 13 / 0.1);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 0px;
     /* justify-content: center;
     gap: 0px; */
   }
@@ -2917,13 +2952,16 @@ input {
   
   
   .container {
-    height: 360px;
+    height: fit-content;
     width: 360px;
     display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    align-items: center;
+    gap: 20px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
   }
 
    
@@ -2949,7 +2987,7 @@ input {
     }
     
     .BtnLearn:hover {
-      width: 170px;
+      width: 160px;
       height: 43.5px;
       background-color: beige;
       /* font-weight: inherit;
@@ -3359,6 +3397,7 @@ footer {
 
 .resCon {
   padding-top: 0px;
+  margin-left: 0px;
   height: 100px;
   width: 340px;
   display: flex;
@@ -3397,8 +3436,7 @@ p {
 
 .divBox1, .divBox3 {
   display: flex;
-  flex-wrap: wrap;
-  height: 600px;
+  height: fit-content;
   width: 384px;
   justify-content: center;
   align-items: center;
@@ -3407,8 +3445,7 @@ p {
 
 .divBox2 {
   display: flex;
-  flex-wrap: wrap;
-  height: 600px;
+  height: fit-content;
   width: 384px;
   align-items: center;
   gap: 0px;
@@ -3423,11 +3460,11 @@ p {
 
 
 .container {
-  height: 420px;
+  height: fit-content;
   width: 340px;
   display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
+  /* flex-wrap: wrap; */
+  gap: 20px;
   align-items: center;
   justify-content: center;
   background-color: beige;
@@ -3680,6 +3717,7 @@ input {
     box-sizing: border-box;
   }
   
+
   
   
 /*   
@@ -3777,6 +3815,10 @@ input {
   .resources {
     height: 240px;
     width: 320px;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
     /* display: flex;
     flex-direction: column;
     justify-content: center;
@@ -3799,8 +3841,8 @@ input {
     width: 280px;
     display: flex;
     gap: 10px;
-    padding-left: 0px;
-    
+    padding: 0px;
+    margin: 0px;
   }
   
   .sideBar { 
@@ -3832,8 +3874,9 @@ input {
   
   .divBox1, .divBox3 {
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     height: fit-content;
+    padding-left: 0px;
     padding-top: 20px;
     padding-bottom: 50px;
     width: 320px;
@@ -3845,9 +3888,11 @@ input {
   }
   
   .divBox2 {
+    padding: 0px;
+    margin: 0px;
     padding-top: 20px;
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     height: fit-content;
     padding-bottom: 50px;
     width: 320px;
@@ -3868,11 +3913,13 @@ input {
   
   .container {
     height: fit-content;
+    margin-left: 0px;
     padding-top: 20px;
     padding-bottom: 50px;
     width: 280px;
     display: flex;
-    flex-wrap: wrap;
+    padding-left: 0px;
+    /* flex-wrap: wrap; */
     gap: 15px;
     align-items: center;
     justify-content: center;
@@ -3887,14 +3934,14 @@ input {
   
   
   .BtnLearn {
-    width: 220px;
+    width: 240px;
     border-radius: 10px;
     height: 40px;
     font-size: 12px;
   }
   
   .BtnLearn:hover {
-    width: 220px;
+    width: 240px;
     border-radius: 10px;
     height: 40px;
     font-size: 12px;
@@ -4060,6 +4107,12 @@ input {
   height: 150px;
   width: 360px;
  }
+
+ .subPageH1 {
+  font-size: 1.4rem;
+  width: 300px;
+  padding-top: 15px;
+}
 
  .contentMainBox {
   width: 290px;

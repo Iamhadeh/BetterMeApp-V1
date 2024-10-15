@@ -13,7 +13,11 @@ import FunBtnEI, {HowToBtnEI, RschBtnEI} from "../components/EmoIntPageInfo";
 
 function CreateButtons (FunBtnEI) {
     return (
-        <ButtonsProps name={FunBtnEI.name}/>
+        <ButtonsProps 
+        name={FunBtnEI.name}
+        link={FunBtnEI.link}
+        key={FunBtnEI.id}
+        />
     )
 }
 
@@ -38,11 +42,11 @@ function EmotionalIntelligence () {
         <NavigationBar/>
         <div className="mainDiv">
             <div className="titleBox">
-            <h1 > Emotional Intelligence</h1>
+            <h1 className="subPageH1" > Emotional Intelligence</h1>
             </div>
             <Sidebar/>
             <section className="resources">
-            <h3 className="h3Font">Resources To Help You Develop Your Emotional Intelligence Muscles</h3>
+            <h2>Resources</h2>
                 <div className="resCon">
                 <p className="textFont">Start acquiring the knowledge to help you become an emotionally sound, matured, and developed person.</p>
                 </div>

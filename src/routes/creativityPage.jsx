@@ -15,6 +15,7 @@ function CreateButtons (FundamentalButtons) {
         <ButtonsProps 
         name={FundamentalButtons.name}
         link={FundamentalButtons.link}
+        key={FundamentalButtons.id}
         />
     )
 }
@@ -22,13 +23,21 @@ function CreateButtons (FundamentalButtons) {
 
 function CreateResearchuttons (ResearchButtons) {
     return (
-        <ButtonsProps name={ResearchButtons.name}/>
+        <ButtonsProps 
+        name={ResearchButtons.name}
+        link={ResearchButtons.link}
+        key={ResearchButtons.id}
+        />
     )
 }
 
 function CreateHowTos (HowToButtons) {
     return (
-        <ButtonsProps name={HowToButtons.name}/>
+        <ButtonsProps 
+        name={HowToButtons.name}
+        link={HowToButtons.link}
+        key={HowToButtons.id}
+        />
     )
 }
 

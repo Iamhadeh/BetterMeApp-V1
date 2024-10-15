@@ -30,6 +30,12 @@ import CreativeMythsNFactsPage from "./routes/routesSubpages/CreativityTopicsPag
 import MostCreativePeoplePage from "./routes/routesSubpages/CreativityTopicsPages/MostCreativePeople.jsx";
 import CreativeToolsPage from "./routes/routesSubpages/CreativityTopicsPages/CreativeToolsPage.jsx";
 
+
+
+//emotional intelligence subpages 
+import ComEmoInt from "./routes/routesSubpages/EmIntTopicPages/ComponentsOfEmoInt.jsx";
+import ScieneceofEmotionPage from "./routes/routesSubpages/EmIntTopicPages/ScienceOfEmotions.jsx";
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -82,6 +88,9 @@ const router = createBrowserRouter([
       element: <AccountPage />,
     },
 
+
+    //creativity subpages
+
     {
       path: "/what-is-creativity",
       element: <WhatIsCreativity />,
@@ -111,6 +120,20 @@ const router = createBrowserRouter([
       path: "/creativity-tools",
       element: <CreativeToolsPage />,
     },
+
+    // EmoInt Links 
+
+    {
+      path: "/components-emotional-intelligence",
+      element: <ComEmoInt />,
+    },
+
+    {
+      path: "//science-emotions",
+      element: <ScieneceofEmotionPage />,
+    },
+
+    
 
   ]); 
     

@@ -4,32 +4,32 @@
 
 const FunBtnEI = [
     {
-        key: 1,
-        name: "Components of Emotional Intelligence?",
+        id: 1,
+        name: "Components of Emotional Intelligence",
         link: "/components-emotional-intelligence"
     },
     {
-        key: 2,
+        id: 2,
         name:"The Science of Emotions",
         link:"/science-emotions"
     }, 
     {
-        key: 3,
+        id: 3,
         name:"Importance of Emotional Intelligence",
         link:"/importance-emotional-intelligence"
     }, 
     {
-        key: 4,
+        id: 4,
         name:"Emotion Control Resources",
         link:"/Emotional Control"
     },
     {
-        key: 5,
+        id: 5,
         name:"Motivation and Emotion",
         link:"/motivation-and-emotion"
     }, 
     {
-        key: 6,
+        id: 6,
         name:"Emotions and Relationships",
         link:"/emotions-and-relationships"
     },
