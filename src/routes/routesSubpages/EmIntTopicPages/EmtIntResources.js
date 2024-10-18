@@ -79,77 +79,69 @@ const ScienceOfEmotionsResources   = [
 ]
 
 
+//importance of emotions 
 
-
-const HistoryOfCreativityResources   = [
+const ImportanceOfEmtIntResource   = [
     {
     idy: 1,
-        title:"The Origin of Our Obsession With Creativity",
-        link:"https://behavioralscientist.org/the-surprising-origins-of-our-obsession-with-creativity/",
-        authorName:"The Behavioural Scientist",
+        title:"Here's why emotional intelligence is so important",
+        link:"https://www.calm.com/blog/why-is-emotional-intelligence-important",
+        authorName:"Calm.com",
         type:"Article"
     },
     {
     idy: 2,
-        title:"The Origin Of Creativity",
-        link:"https://www.scientificamerican.com/article/the-origins-of-creativity-creativity-special/",
-        authorName:"Scientific America",
-        type:"Article"
+        title:"The Importance of Emotional Intelligence (Incl. Quotes)",
+        link:"https://positivepsychology.com/importance-of-emotional-intelligence/",
+        authorName:"Positive Psychology",
+        type:"Guide"
     },
     {
         id: 3,
-        title:"Creativity",
-        link:"https://plato.stanford.edu/entries/creativity/",
-        authorName:"Stanford Encyclopedia of Philosophy",
+        title:"Why Is Emotional Intelligence Important?",
+        link:"https://positivepsychology.com/importance-of-emotional-intelligence/",
+        authorName:"FORBES",
         type:"Article"
     },
     {
         id: 4,
-        title:"History of Creativity",
-        link:"https://www.sari.studio/blog-1/the-history-of-creativity",
-        authorName:"No Sorry Art ",
+        title:"Dr. Daniel Goleman Explains the History of Emotional Intelligence ",
+        link:"https://www.6seconds.org/2024/02/29/goleman-emotional-intelligence/",
+        authorName:"6seconds.org ",
         type:"Article"
     },
 
     {
         id: 5,
-        title:"The Origins Of Creativtiy",
-        link:"https://www.newyorker.com/magazine/2023/04/24/the-cult-of-creativity-samuel-weil-franklin-book-review",
-        authorName:"New York Times",
+        title:"The Importance of Emotional Intelligence in Psychology Students",
+        link:"https://www.psychology.org/resources/importance-of-emotional-intelligence-in-psychology-students/ ",
+        authorName:"Positive Psychology",
         type:"Article"
     } 
 ]
 
 
 
-// myths and facts
+// Motivation and Emotions
 
 
-const CreativeMythsNFacts   = [
+const MotivationAndEmotionsResources   = [
     
     {
         id: 1,
-        title:"Creativity Myths and Facts",
-        link:"https://www.sciencedirect.com/science/article/pii/S0191886921004451",
-        authorName:"Science Direct",
+        title:"Motivation and Emotions",
+        link:"https://link.springer.com/journal/11031",
+        authorName:"Springer",
         type:"Guide"
     },
 
     {
         id:2,
-        title:"Creativity: Myths, Facts, and Boosters",
-        link:"https://innovationlab.net/blog/creativity-myths-facts-and-creative-boosters/",
-        authorName:" Inovation Lab ",
+        title:"Evolving Concepts of Emotion and Motivation",
+        link:"https://pmc.ncbi.nlm.nih.gov/articles/PMC6137142/",
+        authorName:" ",
         type:"Article"
-    },
-
-    {
-        id: 3,
-        title:"15 Myths About Creativity",
-        link:"https://www.psychologytoday.com/us/blog/social-instincts/202107/15-myths-about-creativity",
-        authorName:" Psychology Today ",
-        type:"Article"
-    },
+    }
 
 ]
 
@@ -295,4 +287,4 @@ const CreativeTools   = [
 
 
 export default ComponentsOfEmotionalIntelligence;
-export {ScienceOfEmotionsResources};
+export {ScienceOfEmotionsResources, ImportanceOfEmtIntResource, MotivationAndEmotionsResources};

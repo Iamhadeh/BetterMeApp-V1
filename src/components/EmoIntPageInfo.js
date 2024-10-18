@@ -21,7 +21,7 @@ const FunBtnEI = [
     {
         id: 4,
         name:"Emotion Control Resources",
-        link:"/Emotional Control"
+        link:"/Emotional-Control"
     },
     {
         id: 5,

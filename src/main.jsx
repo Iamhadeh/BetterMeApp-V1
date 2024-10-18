@@ -35,6 +35,9 @@ import CreativeToolsPage from "./routes/routesSubpages/CreativityTopicsPages/Cre
 //emotional intelligence subpages 
 import ComEmoInt from "./routes/routesSubpages/EmIntTopicPages/ComponentsOfEmoInt.jsx";
 import ScieneceofEmotionPage from "./routes/routesSubpages/EmIntTopicPages/ScienceOfEmotions.jsx";
+import ImpEmoIntPage from "./routes/routesSubpages/EmIntTopicPages/ImportanceOfEmoInt.jsx";
+import MotiveAndEmotionPage from "./routes/routesSubpages/EmIntTopicPages/MotivationAndEmotion.jsx";
+
 
 const router = createBrowserRouter([
   {
@@ -121,6 +124,8 @@ const router = createBrowserRouter([
       element: <CreativeToolsPage />,
     },
 
+
+
     // EmoInt Links 
 
     {
@@ -129,8 +134,18 @@ const router = createBrowserRouter([
     },
 
     {
-      path: "//science-emotions",
+      path: "/science-emotions",
       element: <ScieneceofEmotionPage />,
+    },
+
+    {
+      path: "/importance-emotional-intelligence",
+      element: <ImpEmoIntPage />,
+    },
+
+    {
+      path: "/motivation-and-emotion",
+      element: <MotiveAndEmotionPage />,
     },
 
     

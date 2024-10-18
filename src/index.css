@@ -22,7 +22,7 @@ h1 {
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 1.8rem;
   color: beige;
   font-family: "Caveat", system-ui;
   font-weight: bolder;
@@ -36,6 +36,7 @@ h2 {
 
 h3 {
   font-family: "Caveat", system-ui;
+  font-size: 1rem;
 }
 
 a {
@@ -607,7 +608,10 @@ input {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 10px;
+  /* margin-top: 10px; */
+  margin-top: 100px;
+  margin-bottom: 100px;
+  box-sizing: border-box;
  }
 
  .heading {
@@ -1753,14 +1757,14 @@ button:hover {
 
 
 .BtnLearn {
-  width: 220px;
+  width: 240px;
   border-radius: 15px;
   height: 45px;
   border: 0px solid beige;
 }
 
 .BtnLearn:hover {
-  width: 220px;
+  width: 240px;
   font-weight: bolder;
   border-radius: 15px;
   background-color: beige;
