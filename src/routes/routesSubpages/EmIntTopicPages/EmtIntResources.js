@@ -139,9 +139,21 @@ const MotivationAndEmotionsResources   = [
         id:2,
         title:"Evolving Concepts of Emotion and Motivation",
         link:"https://pmc.ncbi.nlm.nih.gov/articles/PMC6137142/",
-        authorName:" ",
+        authorName:"National Library of Medicine",
         type:"Article"
-    }
+    }, 
+
+    {
+        id:3,
+        title:"Motivation and Emotion",
+        link:"https://pmc.ncbi.nlm.nih.gov/articles/PMC6137142/",
+        authorName:"Explorable",
+        type:"Article (🔥🔥🔥🔥🔥)"
+    }, 
+
+
+    
+
 
 ]
 
