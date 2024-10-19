@@ -110,25 +110,25 @@ function Root () {
                     <h3>Sales</h3>
                   </div>
                   <div className="random-skill">
-                    <h3>Deep Work</h3>
+                    <h3>Critical Thinking</h3>
                   </div>
                   <div className="random-skill">
                     <h3>Discipline</h3>
                   </div>
                   <div className="random-skill">
-                    <h3></h3>
+                    <h3>Problem-solving</h3>
                   </div>
               </div>
             </section>
 
-            <section className="this-is-Investment">
+            <section className="this-is-Investment" >
 
               <div className="innerCon">
-              <div className="inner-div-investment"> 
-                  <h2>This Is An Investment</h2>
-                  <p>This is a series of investment. The result can transform your life dramtically...</p>
-              </div>
-              <button>Explore</button>
+                <div className="inner-div-investment"> 
+                   <h2>This Is An Investment</h2>
+                   <p>This is a series of investment. The result can transform your life dramtically...</p>
+                </div>
+                <button>Explore</button>
               </div>
             </section>
        <Footer/>

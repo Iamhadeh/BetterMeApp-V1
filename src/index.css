@@ -219,7 +219,10 @@ header {
 }
 
 
+
+
 /* fade in image */
+
 
 
 .fade-img {
@@ -280,8 +283,7 @@ header {
 @keyframes fadeIn-5 {
   0% { opacity: 0; }
   100% { opacity: 1; }
-}
-
+} 
 
 
 
@@ -461,7 +463,7 @@ footer {
   height: 55px;
   margin: 0px;
   padding: 0px;
-  position: absolute;
+   position: relative;
   bottom: 0px;
 }
 
@@ -3021,6 +3023,211 @@ input {
 
 
   
+
+
+/* Why join us */
+
+.join-us-box {
+  width: 428px;
+  height: 720px;
+  /* background-color: rgb(0 0 0/0.2); */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.join-us-box h2 {
+  border-bottom: 1px solid beige;
+}
+
+.join-us-box button {
+ margin-top: 20px;
+ height: 40px;
+ width: 120px;
+}
+
+.join-us-box button:hover {
+  margin-top: 20px;
+  height: 40px;
+  width: 120px;
+  border: 3px solid black;
+  color: black;
+  font-size: bold;
+}
+ 
+
+.imgFading {
+  height: 240px;
+  width: 360px;
+  background-color: black;
+  display: grid;
+  grid-template-columns: 360px;
+  grid-template-rows: 240px;
+}
+
+
+.imgFading img {
+  height: 240px;
+  width: 360px;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-column-end: 2;
+
+}
+
+.join-us-text-box {
+  width: 360px;
+  height: 320px;
+}
+
+.imp-words {
+  color: beige;
+}
+
+/*third section*/
+
+
+.third-section {
+  display: none;
+}
+
+.fourth-section {
+  margin-top: 70px;
+    width: 428px;
+    height: 540px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+  }
+
+
+
+  .fourth-section-cont {
+    width: 360px;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: rgb(0 0 0/0.2);
+    padding-left: 10px;
+  }
+
+  .fourth-section-cont h2 {
+    /* background-color: black; */
+    text-align: center;
+  }
+
+  .fourth-section-cont button {
+    width: 150px;
+    height: 40px;
+    font-size: bolder;
+  }
+
+  .fourth-section-cont button:hover {
+    width: 150px;
+    height: 40px;
+    border: 3px solid black;
+    color: black;
+    font-size: bolder;
+  }
+
+  .fourth-section-cont-2 {
+    width: 360px;
+    background-color: rgb(245 245 220/0.3);
+    height: 270px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .fourth-section-cont-2 h3 {
+    font-size: 10px;
+    color: beige;
+
+  }
+
+
+  .random-skill {
+    height: 85px;
+    width: 85px;
+    background-color: black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+
+.this-is-Investment {
+  margin-top: 70px;
+  width: 428px;
+  height: 300px;
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+  gap: 0px;
+  /* background-color: blue;   */
+  border-top: 2px solid black;
+}
+
+.innerCon {
+  width: 360px;
+  height: 240px;
+  background-color: rgb(0 0 0/ 0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;  
+  gap: 50px;
+  padding-bottom: 10px;
+  padding-left: 10p;
+}
+
+.innerCon button {
+  margin-top: 20px;
+  border: 2px solid black;
+  height: 40px;
+  width: 120px;
+  font-size: bolder;
+  margin-left: 10px;
+}
+
+.innerCon button:hover {
+  margin-top: 20px;
+  border: 2px solid black;
+  color: black;
+  height: 40px;
+  width: 120px;
+  font-size: bolder;
+}
+
+.inner-div-investment {
+  height: 120px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.inner-div-investment P, .inner-div-investment h2 {
+  padding-left: 20px;
+  margin: 0px;
+}
+
+
+
+  
   
   .mainBox {
     /* display: flex;
@@ -3618,6 +3825,132 @@ header {
   width: 280px;
 }
 
+
+
+
+/* Why join us */
+
+.join-us-box {
+  width: 414px;
+  /* background-color: rgb(0 0 0/0.2); */
+}
+
+
+.imgFading {
+  width: 340px;
+  height: 240px;
+}
+
+
+ .imgFading img {
+  height: 240px;
+  width: 340px;
+
+}
+
+.join-us-text-box {
+  width: 340px;
+  height: 320px;
+} 
+
+
+
+/*third section*/
+
+
+.third-section {
+  display: none;
+}
+
+.fourth-section {
+  /* margin-top: 70px; */
+    width: 414px;
+  }
+
+
+
+  .fourth-section-cont {
+    width: 340px;
+  }
+
+  .fourth-section-cont h2 {
+    /* background-color: black; */
+    text-align: center;
+  }
+
+  .fourth-section-cont-2 {
+    width: 340px;
+  }
+
+  .fourth-section-cont-2 h3 {
+    font-size: 10px;
+    color: beige;
+
+  }
+
+
+  .random-skill {
+    height: 85px;
+    width: 85px;
+    background-color: black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+
+.this-is-Investment {
+  margin-top: 70px;
+  width: 414px;
+  height: 300px;
+  display: flex;
+  gap: 0px;
+  /* background-color: blue;   */
+  border-top: 2px solid black;
+}
+
+.innerCon {
+  width: 340px;
+  height: 240px;
+}
+
+.innerCon button {
+  margin-top: 20px;
+  border: 2px solid black;
+  height: 40px;
+  width: 120px;
+  font-size: bolder;
+  margin-left: 10px;
+}
+
+.innerCon button:hover {
+  margin-top: 20px;
+  border: 2px solid black;
+  color: black;
+  height: 40px;
+  width: 120px;
+  font-size: bolder;
+}
+
+.inner-div-investment {
+  height: 120px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.inner-div-investment P, .inner-div-investment h2 {
+  padding-left: 20px;
+  margin: 0px;
+}
+
+
+
+
 footer {
   width: 414px;
 }
@@ -4054,6 +4387,217 @@ input {
     height: 240px;
     width: 240px;
   }
+
+
+
+
+/* Why join us */
+
+.join-us-box {
+  width: 360px;
+  height: 720px;
+  /* background-color: rgb(0 0 0/0.2); */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.join-us-box h2 {
+  border-bottom: 1px solid beige;
+}
+
+.join-us-box button {
+ margin-top: 20px;
+ height: 40px;
+ width: 120px;
+}
+
+.join-us-box button:hover {
+  margin-top: 20px;
+  height: 40px;
+  width: 120px;
+  border: 3px solid black;
+  color: black;
+  font-size: bold;
+}
+ 
+
+.imgFading {
+  height: 240px;
+  width: 300px;
+  background-color: black;
+  display: grid;
+  grid-template-columns: 680px;
+  grid-template-rows: 400px;
+}
+
+
+.imgFading img {
+  height: 240px;
+  width: 300px;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-column-end: 2;
+
+}
+
+.join-us-text-box {
+  width: 300px;
+  height: 320px;
+}
+
+.imp-words {
+  color: beige;
+}
+
+/*third section*/
+
+
+.third-section {
+  display: none;
+}
+
+.fourth-section {
+  margin-top: 70px;
+    width: 360px;
+    height: 540px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+  }
+
+
+
+  .fourth-section-cont {
+    width: 300px;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: rgb(0 0 0/0.2);
+    padding-left: 10px;
+  }
+
+  .fourth-section-cont h2 {
+    /* background-color: black; */
+    text-align: center;
+  }
+
+  .fourth-section-cont button {
+    width: 150px;
+    height: 40px;
+    font-size: bolder;
+  }
+
+  .fourth-section-cont button:hover {
+    width: 150px;
+    height: 40px;
+    border: 3px solid black;
+    color: black;
+    font-size: bolder;
+  }
+
+  .fourth-section-cont-2 {
+    width: 300px;
+    background-color: rgb(245 245 220/0.3);
+    height: 270px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .fourth-section-cont-2 h3 {
+    font-size: 10px;
+    color: beige;
+
+  }
+
+
+  .random-skill {
+    height: 70px;
+    width: 70px;
+    background-color: black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+
+.this-is-Investment {
+  margin-top: 70px;
+  width: 360px;
+  height: 300px;
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+  gap: 0px;
+  /* background-color: blue;   */
+  border-top: 2px solid black;
+}
+
+.innerCon {
+  width: 300px;
+  height: 240px;
+  background-color: rgb(0 0 0/ 0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;  
+  gap: 50px;
+  padding-bottom: 10px;
+  padding-left: 10p;
+}
+
+.innerCon button {
+  margin-top: 20px;
+  border: 2px solid black;
+  height: 40px;
+  width: 120px;
+  font-size: bolder;
+  margin-left: 10px;
+}
+
+.innerCon button:hover {
+  margin-top: 20px;
+  border: 2px solid black;
+  color: black;
+  height: 40px;
+  width: 120px;
+  font-size: bolder;
+}
+
+.inner-div-investment {
+  height: 120px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.inner-div-investment P, .inner-div-investment h2 {
+  padding-left: 20px;
+  margin: 0px;
+}
+
+
+
+
+
+/*****/
+
+
   
   footer {
     width: 360px;
