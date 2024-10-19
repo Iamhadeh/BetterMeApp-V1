@@ -151,6 +151,18 @@ const MotivationAndEmotionsResources   = [
         type:"Article (🔥🔥🔥🔥🔥)"
     }, 
 
+    {
+        id:4,
+        title:"20 Module 20: Emotions and Motivation: What Moves You?",
+        link:"https://cod.pressbooks.pub/introductiontopsychology/chapter/emotions-and-motivation-what-moves-you/",
+        authorName:"Explorable",
+        type:"Article (🔥🔥🔥🔥🔥)"
+    }, 
+
+    
+
+    
+
 
     
 

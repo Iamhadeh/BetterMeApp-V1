@@ -57,6 +57,7 @@ body {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  min-height: 100dvh;
 } 
 
 main {
@@ -173,6 +174,266 @@ header {
   width: 320px;
   border-radius: 50%;
 }
+
+
+/* Why join us */
+
+.join-us-box {
+  width: 1440px;
+  height: 800px;
+  background-color: rgb(0 0 0/0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.join-us-box h2 {
+  border-bottom: 1px solid beige;
+}
+
+.join-us-box button {
+ margin-top: 20px;
+ height: 40px;
+ width: 120px;
+}
+
+.join-us-box button:hover {
+  margin-top: 20px;
+  height: 40px;
+  width: 120px;
+  border: 3px solid black;
+  color: black;
+  font-size: bold;
+}
+
+
+/* fade in image */
+
+
+.fade-img {
+  animation: fadeIn 5s;
+}
+
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.fade-img-1 {
+  animation: fadeIn-1 10s; 
+}
+
+
+@keyframes fadeIn-1 {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+
+.fade-img-2 {
+  animation: fadeIn-2 20s; 
+}
+
+
+@keyframes fadeIn-2 {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.fade-img-3 {
+  animation: fadeIn-3 25s;
+}
+
+
+@keyframes fadeIn-3 {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.fade-img-4 {
+  animation: fadeIn-4 35s;
+}
+
+
+@keyframes fadeIn-4 {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.fade-img-5 {
+  animation: fadeIn-5 40s;
+}
+
+@keyframes fadeIn-5 {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+
+
+
+
+
+.imgFading {
+  height: 400px;
+  width: 680px;
+  background-color: black;
+  display: grid;
+  grid-template-columns: 680px;
+  grid-template-rows: 400px;
+}
+
+
+.imgFading img {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-column-end: 2;
+}
+
+.join-us-text-box {
+  width: 680px;
+  height: 320px;
+}
+
+.imp-words {
+  color: beige;
+}
+
+/*third section*/
+
+
+.third-section {
+  display: none;
+}
+
+.fourth-section {
+  margin-top: 70px;
+    width: 1440px;
+    height: 320px;
+    /* background-color: rgb(0 0 0/0.2); */
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+   
+  }
+
+  .fourth-section-cont {
+    width: 420px;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: rgb(0 0 0/0.2);
+    padding-left: 20px;
+  }
+
+  .fourth-section-cont h2 {
+    /* background-color: black; */
+    text-align: center;
+  }
+
+  .fourth-section-cont button {
+    width: 150px;
+    height: 40px;
+    font-size: bolder;
+  }
+
+  .fourth-section-cont button:hover {
+    width: 150px;
+    height: 40px;
+    border: 3px solid black;
+    color: black;
+    font-size: bolder;
+  }
+
+  .fourth-section-cont-2 {
+    width: 290px;
+    background-color: rgb(245 245 220/0.3);
+    height: 270px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .fourth-section-cont-2 h3 {
+    font-size: 10px;
+    color: beige;
+
+  }
+
+
+  .random-skill {
+    height: 70px;
+    width: 70px;
+    background-color: black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+
+.this-is-Investment {
+  margin-top: 70px;
+  width: 1440px;
+  height: 320px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0px;
+  /* background-color: blue; */
+  border-top: 2px solid black;
+}
+
+.innerCon {
+  width: 680px;
+  height: 120px;
+  background-color: rgb(0 0 0/ 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.innerCon button {
+  margin-top: 20px;
+  border: 2px solid black;
+  height: 40px;
+  width: 120px;
+  font-size: bolder;
+}
+
+.innerCon button:hover {
+  margin-top: 20px;
+  border: 2px solid black;
+  color: black;
+  height: 40px;
+  width: 120px;
+  font-size: bolder;
+}
+
+.inner-div-investment {
+  height: 80px;
+  width: 480px;
+  /* background-color: rgb(0 0 0/ 0.2); */
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+
+
 
 
 
