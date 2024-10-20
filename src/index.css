@@ -28,6 +28,10 @@ h2 {
   font-weight: bolder;
 }
 
+.mainH2 {
+  color: #669eb4;
+}
+
 .welcomeH3 {
   font-family: "Caveat", system-ui;
   height: 50px;
@@ -53,7 +57,7 @@ h1, h2 {
 
 body {
   /* background-color: skyblue; */
-   background-color: grey; 
+   background-color: #f2f2f2; 
   width: 1440px;
   margin: 0px;
   padding: 0px;
@@ -86,6 +90,8 @@ menu {
   margin: 0px;
   padding: 0px;
 }
+
+
 
 
 /* hamburger menu */
@@ -192,7 +198,7 @@ header {
 .join-us-box {
   width: 1440px;
   height: 800px;
-  background-color: rgb(135 206 235/0.3);
+  background-color: #669eb4;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -342,7 +348,7 @@ header {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    background-color: rgb(135 206 235/0.3);
+    background-color: #669eb4;
     padding-left: 20px;
   }
 
@@ -367,7 +373,7 @@ header {
 
   .fourth-section-cont-2 {
     width: 290px;
-    background-color: rgb(245 245 220/0.3);
+    background-color: rgb(0 0 0/ 0.1);
     height: 270px;
     display: flex;
     justify-content: center;
@@ -412,7 +418,7 @@ header {
 .innerCon {
   width: 680px;
   height: 120px;
-  background-color: rgb(135 206 235/0.3);
+  background-color: #669eb4;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -535,7 +541,7 @@ button:hover {
 
 .mainDiv {
   height: 1200px;
-  background-color: #63635f;
+  background-color: #f2f2f2;
   width: 1440px;
   display: grid;
   grid-template-columns: 200px 1240px;
@@ -546,7 +552,7 @@ button:hover {
 }
 
 .titleBox {
-  background-color: skyblue;
+  background-color: rgb(102 158 180/0.2);
   padding-left: 20px;
   height: 40px;
   width: 1440px;
@@ -559,7 +565,7 @@ button:hover {
 .resources {
   height: 200px;
   padding-left: 50px;
-  background-color: rgb(135 206 235/0.3);
+  background-color: rgb(102 158 180/0.2);
   width: 1240px;
   grid-row-start: 2;
   grid-row-end: 3;
@@ -567,9 +573,13 @@ button:hover {
   grid-column-end: 3;
 }
 
+.resources h2 {
+  color: black;
+}
+
 .sideBar { 
   height: 1000px;
-  background-color: rgb(0 0 0/ 0.1);
+  background-color: rgb(102 158 180/0.2);
   grid-row-start: 2;
   grid-row-end: 7;
   grid-column-start: 1;
@@ -623,7 +633,7 @@ p {
   width: 1240px;
   grid-column-start: 2;
   grid-column-end: 3;
-  background-color: rgb(135 206 235/0.3);
+  background-color: rgb(102 158 180/0.2);
    /* background-color: rgb(14 13 13 / 0.1);  */
   display: flex;
   flex-direction: column;
@@ -678,7 +688,7 @@ p {
   margin-bottom: 5px;
   font-size: 1.1rem;
   font-weight: bolder;
-  color: beige;
+  color: black;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -726,7 +736,7 @@ input {
 
 .pickLesson {
   width: 1200px;
-  background-color: beige;
+  background-color: #669eb4;
   display: flex;
   gap: 20px;
   flex-wrap: wrap;
@@ -773,7 +783,7 @@ input {
 }
 
 .divInsideAbout, .divInsideAbout1 {
-  background-color: beige;
+  background-color: #669eb4;
   height: 600px;
   width: 600px;
   display: flex;
@@ -792,7 +802,7 @@ input {
 .divInsideAbout1 h2, .divInsideAbout h2 {
   padding: 0px;
   margin: 0px;
-  color: black;
+  color: beige;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 }
@@ -851,7 +861,7 @@ input {
 }
 
 .loginText, .signUpText {
-  color: beige;
+  color: #669eb4;
   cursor: pointer;
   border-bottom: 1px solid black;
 }
@@ -886,7 +896,7 @@ input {
   height: fit-content;
   padding: 50px;
   margin-left: 120px;
-  background-color: rgb(0 0 0/ 0.2);
+  background-color: rgb(102 158 180/0.2);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -988,14 +998,14 @@ input {
 @media screen and (max-width: 834px) {
 
   body {
-    background-color: #63635f;
+    background-color: #f2f2f2;
     width: 834px;
   }
 
   
 h1 {
-  color: black;
   font-family: "Rowdies", sans-serif;
+  font-weight: bolder;
 }
 
 h2 {
@@ -1008,7 +1018,7 @@ h2 {
 .welcomeH3 {
   font-family: "Caveat", system-ui;
   height: 50px;
-  color: beige;
+  color: #669eb4;
 }
 
 h3 {
@@ -1241,7 +1251,7 @@ header {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    background-color: rgb(135 206 235/0.3);
+    background-color: #669eb4;
     padding-left: 20px;
   }
 
@@ -1266,7 +1276,7 @@ header {
 
   .fourth-section-cont-2 {
     width: 290px;
-    background-color: rgb(245 245 220/0.3);
+    background-color: rgb(0 0 0 0/0.1);
     height: 270px;
     display: flex;
     justify-content: center;
@@ -1310,7 +1320,7 @@ header {
 .innerCon {
   width: 680px;
   height: 120px;
-  background-color: rgb(135 206 235/0.3);
+  background-color: #669eb4;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1428,7 +1438,7 @@ button:hover {
 }
 
 .titleBox {
-  background-color: skyblue;
+  background-color: rgb(102 158 180/0.2);
   height: 70px;
   padding-left: 20px;
   width: 768px;
@@ -1451,7 +1461,7 @@ button:hover {
 
 .sideBar { 
   height: 1500px;
-  background-color: skyblue;
+  /* background-color: skyblue; */
   grid-row-start: 2;
   grid-row-end: 7;
   grid-column-start: 1;
@@ -1504,7 +1514,7 @@ button:hover {
   width: 624px;
   grid-column-start: 2;
   grid-column-end: 3;
-   background-color: rgb(14 13 13 / 0.2); 
+   /* background-color: rgb(14 13 13 / 0.2);  */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1611,7 +1621,7 @@ input {
 
 .pickLesson {
   width: 624px;
-  background-color: beige;
+  /* background-color: beige; */
   display: flex;
   gap: 20px; 
   align-items: center;
@@ -1658,7 +1668,7 @@ input {
 }
 
 .divInsideAbout, .divInsideAbout1 {
-  background-color: beige;
+  background-color: #669eb4;
   height: 600px;
   width: 600px;
   display: flex;
@@ -1677,7 +1687,7 @@ input {
 .divInsideAbout1 h2, .divInsideAbout h2 {
   padding: 0px;
   margin: 0px;
-  color: black;
+  color: beige;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 }
@@ -2104,7 +2114,7 @@ button:hover {
 }
 
 .titleBox {
-  background-color: skyblue;
+  /* background-color: skyblue; */
   height: 70px;
   padding-left: 20px;
   width: 768px;
@@ -2127,7 +2137,7 @@ button:hover {
 
 .sideBar { 
   height: 1500px;
-  background-color: skyblue;
+  /* background-color: skyblue; */
   grid-row-start: 2;
   grid-row-end: 7;
   grid-column-start: 1;
@@ -2180,7 +2190,7 @@ button:hover {
   width: 624px;
   grid-column-start: 2;
   grid-column-end: 3;
-   background-color: rgb(14 13 13 / 0.2); 
+   /* background-color: rgb(14 13 13 / 0.2);  */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -2287,7 +2297,7 @@ input {
 
 .pickLesson {
   width: 624px;
-  background-color: beige;
+  /* background-color: beige; */
   display: flex;
   gap: 20px; 
   align-items: center;
@@ -2334,7 +2344,7 @@ input {
 }
 
 .divInsideAbout, .divInsideAbout1 {
-  background-color: beige;
+  background-color: #669eb4;
   height: 600px;
   width: 600px;
   display: flex;
@@ -2353,7 +2363,7 @@ input {
 .divInsideAbout1 h2, .divInsideAbout h2 {
   padding: 0px;
   margin: 0px;
-  color: black;
+  color: beige;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 }
@@ -2741,7 +2751,7 @@ input {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    background-color: rgb(135 206 235/0.3);
+    /* background-color: rgb(135 206 235/0.3); */
     padding-left: 10px;
   }
 
@@ -2766,7 +2776,7 @@ input {
 
   .fourth-section-cont-2 {
     width: 420px;
-    background-color: rgb(245 245 220/0.3);
+    background-color: rgb(0 0 0 0/0.1);
     height: 270px;
     display: flex;
     justify-content: center;
@@ -2811,7 +2821,7 @@ input {
 .innerCon {
   width: 420px;
   height: 240px;
-  background-color: rgb(0 0 0/ 0.2);
+  background-color: #669eb4;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -2953,7 +2963,7 @@ input {
   
   
   .titleBox {
-    background-color: skyblue;
+    /* background-color: skyblue; */
     height: 40px;
     width: 520px;
   }
@@ -3017,9 +3027,6 @@ input {
     height: 360px;
     width: 480px;
     justify-content: center;
-    /* align-items: center; */
-    background-color: rgb(135 206 235/0.3);
-    /* background-color: rgb(14 13 13 / 0.2); */
   }
   
   .divBox2 {
@@ -3027,7 +3034,7 @@ input {
     height: 360px;
     width: 480px;
     justify-content: center;
-    background-color: rgb(135 206 235/0.3);
+    /* background-color: rgb(135 206 235/0.3); */
     /* align-items: center; */
     gap: 0px;
   }
@@ -3112,7 +3119,7 @@ input {
   
   .pickLesson {
     width: 400px;
-    background-color: beige;
+    /* background-color: beige; */
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
@@ -3172,6 +3179,7 @@ input {
   
   .divInsideAbout1 {
     /* background-color: rgba(62, 155, 192, 0.3); */
+    background-color: #669eb4;
     height: 800px;
     width: 400px;
     display: flex;
@@ -3181,6 +3189,7 @@ input {
     padding-left: 20px;
     padding-right: 20px;
     gap: 20px;
+    background-color: #669eb4;
     /* border-top: 1px solid brown;
     border-bottom: 1px solid brown; */
   
@@ -3189,6 +3198,7 @@ input {
   .divInsideAbout {
     /* background-color: rgba(62, 155, 192, 0.3); */
     height: 450px;
+    background-color: #669eb4;
     width: 400px;
     display: flex;
     flex-direction: column;
@@ -3238,7 +3248,7 @@ input {
   width: 420px;
   height: fit-content;
   padding: 25px;
-  background-color: rgb(0 0 0/ 0.2);
+  /* background-color: rgb(0 0 0/ 0.2); */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -3532,7 +3542,7 @@ input {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    background-color: rgb(135 206 235/0.3);
+    /* background-color: rgb(135 206 235/0.3); */
     padding-left: 10px;
   }
 
@@ -3557,7 +3567,7 @@ input {
 
   .fourth-section-cont-2 {
     width: 360px;
-    background-color: rgb(245 245 220/0.3);
+    /* background-color: rgb(245 245 220/0.3); */
     height: 270px;
     display: flex;
     justify-content: center;
@@ -3602,7 +3612,7 @@ input {
 .innerCon {
   width: 360px;
   height: 240px;
-  background-color: rgb(135 206 235/0.3);
+  background-color: #669eb4;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -3756,7 +3766,6 @@ input {
   .resources {
     /* height: 300px; */
     width: 400px;
-    background-color: rgb(14 13 13 /0.2);
     padding-left: 0px;
    
     /* display: flex;
@@ -3772,7 +3781,7 @@ input {
   .resources h2 {
     width: 360px;
     padding-left: 20px;
-    color: beige;
+    color: black;
   }
   
   .resCon {
@@ -3823,7 +3832,7 @@ input {
      */
      height: fit-content;
     width: 400px;
-    background-color: rgb(14 13 13 / 0.1);
+    /* background-color: rgb(14 13 13 / 0.1); */
     padding-top: 40px;
     padding-bottom: 40px;
 
@@ -3832,12 +3841,9 @@ input {
   }
   
   .divBox2 {
-    /* display: flex;
-    flex-wrap: wrap;
-    height: 600px; */
     height: fit-content;
     width: 400px;
-    background-color: rgb(14 13 13 / 0.1);
+    /* background-color: rgb(14 13 13 / 0.1); */
     padding-top: 40px;
     padding-bottom: 40px;
     padding-left: 0px;
@@ -4006,6 +4012,7 @@ input {
   .divInsideAbout1 {
     /* background-color: rgba(62, 155, 192, 0.3);
     height: 800px; */
+    background-color: #669eb4;
     width: 360px;
     border-bottom: 1px solid beige;
     border-top: 1px solid beige;
@@ -4026,6 +4033,7 @@ input {
     height: 450px; */
 
     width: 360px;
+    background-color: #669eb4;
     border-bottom: 1px solid beige;
     border-top: 1px solid beige;
     /* display: flex;
@@ -4333,6 +4341,7 @@ header {
 .innerCon {
   width: 340px;
   height: 240px;
+  background-color: #669eb4;
 }
 
 .innerCon button {
@@ -4398,7 +4407,7 @@ footer {
 
 
 .titleBox {
-  background-color: skyblue;
+  /* s */
   height: 50px;
   width: 414px;
   padding-left: 0px;
@@ -4412,7 +4421,7 @@ footer {
   justify-content: center;
   align-items: center;
   padding-left: 0px;
-  background-color: rgb(14 13 13 /0.1);
+  /* background-color: rgb(14 13 13 /0.1); */
 }
 
 
@@ -4469,7 +4478,7 @@ p {
   width: 384px;
   justify-content: center;
   align-items: center;
-  background-color: rgb(14 13 13 / 0.2);
+  /* background-color: rgb(14 13 13 / 0.2); */
 }
 
 .divBox2 {
@@ -4542,7 +4551,6 @@ p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: greenyellow;
 }
 
 .searchdiv {
@@ -4558,7 +4566,7 @@ input {
 
 .pickLesson {
   width: 384px;
-  background-color: beige; 
+  /* background-color: beige;  */
   display: flex;
   gap: 10px;
   flex-wrap: wrap;
@@ -4617,7 +4625,7 @@ input {
 }
 
 .divInsideAbout1 {
-  background-color: beige;
+  background-color: #669eb4;
   height: 800px;
   width: 360px;
   display: flex;
@@ -4898,7 +4906,7 @@ input {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    background-color: rgb(135 206 235/0.3);
+    /* background-color: rgb(135 206 235/0.3); */
     padding-left: 10px;
   }
 
@@ -4923,7 +4931,7 @@ input {
 
   .fourth-section-cont-2 {
     width: 300px;
-    background-color: rgb(245 245 220/0.3);
+    /* background-color: rgb(245 245 220/0.3); */
     height: 270px;
     display: flex;
     justify-content: center;
@@ -4968,7 +4976,7 @@ input {
 .innerCon {
   width: 300px;
   height: 240px;
-  background-color: rgb(0 0 0/ 0.2);
+  background-color: #669eb4;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -5064,7 +5072,7 @@ input {
     justify-content: center;
     align-items: center;
     padding-left: 0px; */
-    background-color: rgb(14 13 13 /0.2)
+    /* background-color: rgb(14 13 13 /0.2) */
   }
   
   
@@ -5124,7 +5132,7 @@ input {
     border-top: 1px solid beige;
     justify-content: center;
     align-items: center;
-    background-color: rgb(14 13 13 / 0.2);
+    /* background-color: rgb(14 13 13 / 0.2); */
   }
   
   .divBox2 {
@@ -5140,7 +5148,7 @@ input {
     gap: 0px;
     border: 0px solid beige;
     border-top: 1px solid beige;
-    background-color: rgb(14 13 13 / 0.2)
+    /* background-color: rgb(14 13 13 / 0.2) */
   }
   
   .textFont {
@@ -5224,7 +5232,8 @@ input {
   
   .pickLesson {
     width:320px;
-    background-color: beige;
+    background-color: #669eb4;
+    /* background-color: beige; */
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -5296,6 +5305,7 @@ input {
     height: fit-content;
     width: 320px;
     padding-top: 20px;
+    background-color: #669eb4;
 
   }
   

@@ -27,7 +27,7 @@ function Root () {
           <div className="headerBox1">
             <h3 className="welcomeH3">Welcome,</h3>
             <h1 className="mainH1"> Become A Better Individual</h1>
-            <h2 className="mainH2">One Activity At A Time</h2>
+            <h2 className="mainH2">One Activity At A Time...</h2>
             <p>The best repository of resources for individuals to master soft skills. To become the top one percent in your field, you have to master a couple of soft skills. Start your journey to become a better person today</p>
           </div>
           <div className="headerBox2">
@@ -43,7 +43,7 @@ function Root () {
        
        {/* this is another section */}
         <div className="join-us-box">
-            <h2>Why You Should Join Us?</h2>
+            <h2 className="why-join-text">Why You Should Join Us?</h2>
             <div className="imgFading">
                <img className="fade-img" src="../static/FdImg3.png" alt="" />
                <img className="fade-img-1" src="../static/FdImg4.png" alt="" />
