@@ -21,13 +21,17 @@ function CreateButtons (CreativityResource) {
 }
 
 
+
 function WhatIsCreativity () {
     return (
         <>
         <Menu/>
         <NavigationBar/>
         <div className="heading">
-            <p>Go back to   <button> <Link to= {"/creativity"} > Creativity </Link> </button></p>
+        <div className="goBackBox"> 
+                 <p>Go back to   </p>
+                  <button > <Link to= {"/creativity"} > Creativity </Link> </button>
+            </div>
             <h1 className="subPageH1">What is Creativity?</h1>
         </div> 
         <div className="searchdiv">

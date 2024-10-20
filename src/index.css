@@ -31,7 +31,7 @@ h2 {
 .welcomeH3 {
   font-family: "Caveat", system-ui;
   height: 50px;
-  color: beige;
+  color: skyblue;
 }
 
 h3 {
@@ -52,7 +52,8 @@ h1, h2 {
 
 
 body {
-  background-color: skyblue;
+  /* background-color: skyblue; */
+   background-color: grey; 
   width: 1440px;
   margin: 0px;
   padding: 0px;
@@ -60,10 +61,8 @@ body {
 } 
 
 html, body {
-  min-height: 100dvh;
-} #outer {
-  min-height: 100dvh;
-}
+  height: 100%;
+} 
 
 
 /* main {
@@ -113,7 +112,7 @@ nav button {
 
 .menuBtn:hover {
   color: black;
-  border: 3px solid skyblue;
+  border: 3px solid beige;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   width: 80px;
   height: 25px;
@@ -138,7 +137,7 @@ nav button {
   width: 150px;
   border-radius: 20px;
   background-color: black;
-  border: 3px solid skyblue;
+  border: 0px solid beige;
 }
 
 .mainBox > button:hover {
@@ -172,7 +171,7 @@ header {
 
 .headerBox2 {
    border-radius: 50%;
-   background-color: beige; 
+   background-color: black; 
    display: flex;
    justify-content: center;
    align-items: center;
@@ -186,12 +185,14 @@ header {
 }
 
 
+
+
 /* Why join us */
 
 .join-us-box {
   width: 1440px;
   height: 800px;
-  background-color: rgb(0 0 0/0.2);
+  background-color: rgb(135 206 235/0.3);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -341,7 +342,7 @@ header {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    background-color: rgb(0 0 0/0.2);
+    background-color: rgb(135 206 235/0.3);
     padding-left: 20px;
   }
 
@@ -411,7 +412,7 @@ header {
 .innerCon {
   width: 680px;
   height: 120px;
-  background-color: rgb(0 0 0/ 0.2);
+  background-color: rgb(135 206 235/0.3);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -465,6 +466,8 @@ footer {
   padding: 0px;
    position: relative;
   bottom: 0px;
+  left: 0px;
+  right: 0px;
 }
 
 footer > h3 {
@@ -497,10 +500,11 @@ footer > h3 {
 
 
 .goBackBtn {
-  width: fit-content;
+  width: 180px;
   padding-left: 10px;
   padding-right: 10px;
   display: flex;
+  justify-content: center;
   align-items: center;
   height: 60px;
 }
@@ -531,7 +535,7 @@ button:hover {
 
 .mainDiv {
   height: 1200px;
-  background-color: skyblue;
+  background-color: #63635f;
   width: 1440px;
   display: grid;
   grid-template-columns: 200px 1240px;
@@ -555,7 +559,7 @@ button:hover {
 .resources {
   height: 200px;
   padding-left: 50px;
-  background-color: rgb(14 13 13 / 0.2);
+  background-color: rgb(135 206 235/0.3);
   width: 1240px;
   grid-row-start: 2;
   grid-row-end: 3;
@@ -575,6 +579,7 @@ button:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 10px;
 }
 
 .BtnSideBar {
@@ -618,7 +623,8 @@ p {
   width: 1240px;
   grid-column-start: 2;
   grid-column-end: 3;
-   background-color: rgb(14 13 13 / 0.1); 
+  background-color: rgb(135 206 235/0.3);
+   /* background-color: rgb(14 13 13 / 0.1);  */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -669,9 +675,10 @@ p {
 }
 
 .h3Font {
+  margin-bottom: 5px;
   font-size: 1.1rem;
   font-weight: bolder;
-  color: black;
+  color: beige;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -981,7 +988,7 @@ input {
 @media screen and (max-width: 834px) {
 
   body {
-    background-color: skyblue;
+    background-color: #63635f;
     width: 834px;
   }
 
@@ -1080,7 +1087,7 @@ nav button {
   justify-content: center;
   justify-content: center;
   gap: 30px;
-  width: 768px;
+  width: 834px;
   height: 100px;
 }
 
@@ -1091,7 +1098,7 @@ nav button {
   width: 150px;
   border-radius: 20px;
   background-color: black;
-  border: 3px solid skyblue;
+  border: 0px solid skyblue;
 }
 
 .mainBox > button:hover {
@@ -1109,7 +1116,7 @@ header {
   /* display: flex;
   justify-content: center;
   align-items: center; */
-  width: 768px;
+  width: 834px;
   height: 500px;
 }
 
@@ -1125,7 +1132,7 @@ header {
 
 .headerBox2 {
    border-radius: 50%;
-   background-color: beige; 
+   background-color: black; 
    display: flex;
    justify-content: center;
    align-items: center;
@@ -1137,6 +1144,206 @@ header {
   width: 320px;
   border-radius: 50%;
 }
+
+
+
+
+
+/* Why join us */
+
+.join-us-box {
+  width: 834px;
+  /* height: 800px;
+   background-color: rgb(135 206 235/0.3);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; */
+}
+
+/* 
+.join-us-box h2 {
+  border-bottom: 1px solid beige;
+}
+
+.join-us-box button {
+ margin-top: 20px;
+ height: 40px;
+ width: 120px;
+}
+
+.join-us-box button:hover {
+  margin-top: 20px;
+  height: 40px;
+  width: 120px;
+  border: 3px solid black;
+  color: black;
+  font-size: bold;
+} */
+
+
+
+
+/* fade in image */
+
+
+
+
+.imgFading {
+  height: 400px;
+  width: 680px;
+  /* background-color: black;
+  display: grid;
+  grid-template-columns: 680px;
+  grid-template-rows: 400px; */
+}
+
+/* 
+.imgFading img {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-column-end: 2;
+}
+
+.join-us-text-box {
+  width: 680px;
+  height: 320px;
+}
+
+.imp-words {
+  color: beige;
+} */
+
+/*third section*/
+
+
+.third-section {
+  display: none;
+}
+
+
+.fourth-section {
+  margin-top: 70px;
+    width: 834px;
+    height: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+   
+  }
+
+  .fourth-section-cont {
+    width: 420px;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: rgb(135 206 235/0.3);
+    padding-left: 20px;
+  }
+
+  .fourth-section-cont h2 {
+    /* background-color: black; */
+    text-align: center;
+  }
+
+  .fourth-section-cont button {
+    width: 150px;
+    height: 40px;
+    font-size: bolder;
+  }
+
+  .fourth-section-cont button:hover {
+    width: 150px;
+    height: 40px;
+    border: 3px solid black;
+    color: black;
+    font-size: bolder;
+  }
+
+  .fourth-section-cont-2 {
+    width: 290px;
+    background-color: rgb(245 245 220/0.3);
+    height: 270px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .fourth-section-cont-2 h3 {
+    font-size: 10px;
+    color: beige;
+
+  }
+
+
+  .random-skill {
+    height: 70px;
+    width: 70px;
+    background-color: black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+
+.this-is-Investment {
+  margin-top: 70px;
+  width: 834px;
+  height: 320px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0px;
+  border-top: 2px solid black;
+}
+
+.innerCon {
+  width: 680px;
+  height: 120px;
+  background-color: rgb(135 206 235/0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.innerCon button {
+  margin-top: 20px;
+  border: 2px solid black;
+  height: 40px;
+  width: 120px;
+  font-size: bolder;
+}
+
+.innerCon button:hover {
+  margin-top: 20px;
+  border: 2px solid black;
+  color: black;
+  height: 40px;
+  width: 120px;
+  font-size: bolder;
+}
+
+.inner-div-investment {
+  height: 80px;
+  width: 480px;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+
+
 
 
 
@@ -1656,7 +1863,7 @@ input {
 
   body {
     width: 768px;
-    background-color: skyblue;
+    /* background-color: skyblue; */
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -1767,7 +1974,7 @@ nav button {
   width: 150px;
   border-radius: 20px;
   background-color: black;
-  border: 3px solid skyblue;
+  border: 0px solid skyblue;
 }
 
 .mainBox > button:hover {
@@ -1801,7 +2008,7 @@ header {
 
 .headerBox2 {
    border-radius: 50%;
-   background-color: beige; 
+   background-color: black; 
    display: flex;
    justify-content: center;
    align-items: center;
@@ -2330,8 +2537,8 @@ input {
   body {
     width: 520px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
     flex-direction: column;
   }
     
@@ -2395,15 +2602,16 @@ input {
   }
 
   .hamCon {
-    height: 200px;
-    width: 120px;
+    height: 300px;
+    margin-top: 5px;
+    width: 320px;
     background-color: black;
-    border: 2px solid brown;
-    gap: 10px;
+    /* border: 2px solid brown; */
+    gap: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-left: 10px;
+    padding-left: 30px;
     position: relative;
     z-index: 1;
   }
@@ -2444,6 +2652,216 @@ input {
 
 
   
+
+/* Why join us */
+
+.join-us-box {
+  width: 520px;
+  height: 720px;
+  /* background-color: rgb(0 0 0/0.2); */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.join-us-box h2 {
+  border-bottom: 1px solid beige;
+}
+
+.join-us-box button {
+ margin-top: 20px;
+ height: 40px;
+ width: 120px;
+}
+
+.join-us-box button:hover {
+  margin-top: 20px;
+  height: 40px;
+  width: 120px;
+  border: 3px solid black;
+  color: black;
+  font-size: bold;
+}
+ 
+
+.imgFading {
+  height: 240px;
+  width: 420px;
+  background-color: black;
+  display: grid;
+  grid-template-columns: 360px;
+  grid-template-rows: 240px;
+}
+
+
+.imgFading img {
+  height: 240px;
+  width: 420px;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-column-end: 2;
+
+}
+
+.join-us-text-box {
+  width: 420px;
+  height: 320px;
+}
+
+.imp-words {
+  color: beige;
+}
+
+/*third section*/
+
+
+.third-section {
+  display: none;
+}
+
+.fourth-section {
+  margin-top: 70px;
+    width: 520px;
+    height: 540px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+  }
+
+
+
+  .fourth-section-cont {
+    width: 420px;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: rgb(135 206 235/0.3);
+    padding-left: 10px;
+  }
+
+  .fourth-section-cont h2 {
+    /* background-color: black; */
+    text-align: center;
+  }
+
+  .fourth-section-cont button {
+    width: 150px;
+    height: 40px;
+    font-size: bolder;
+  }
+
+  .fourth-section-cont button:hover {
+    width: 150px;
+    height: 40px;
+    border: 3px solid black;
+    color: black;
+    font-size: bolder;
+  }
+
+  .fourth-section-cont-2 {
+    width: 420px;
+    background-color: rgb(245 245 220/0.3);
+    height: 270px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .fourth-section-cont-2 h3 {
+    font-size: 10px;
+    color: beige;
+
+  }
+
+
+  .random-skill {
+    height: 85px;
+    width: 85px;
+    background-color: black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+
+.this-is-Investment {
+  margin-top: 70px;
+  width: 520px;
+  height: 300px;
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+  gap: 0px;
+  /* background-color: blue;   */
+  border-top: 2px solid black;
+}
+
+.innerCon {
+  width: 420px;
+  height: 240px;
+  background-color: rgb(0 0 0/ 0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;  
+  gap: 50px;
+  padding-bottom: 10px;
+  padding-left: 10p;
+}
+
+.innerCon button {
+  margin-top: 20px;
+  border: 2px solid black;
+  height: 40px;
+  width: 120px;
+  font-size: bolder;
+  margin-left: 10px;
+}
+
+.innerCon button:hover {
+  margin-top: 20px;
+  border: 2px solid black;
+  color: black;
+  height: 40px;
+  width: 120px;
+  font-size: bolder;
+}
+
+.inner-div-investment {
+  height: 120px;
+  width: 420px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.inner-div-investment P, .inner-div-investment h2 {
+  padding-left: 20px;
+  margin: 0px;
+}
+
+
+
+
+  /****/
+
+
+
+
+  
   
   .mainBox {
     display: flex;
@@ -2465,7 +2883,7 @@ input {
   }
   
   .mainBox > button:hover {
-    background-color: brown;
+    background-color: beige ;
   }
   
   header {
@@ -2600,7 +3018,8 @@ input {
     width: 480px;
     justify-content: center;
     /* align-items: center; */
-    background-color: rgb(14 13 13 / 0.2);
+    background-color: rgb(135 206 235/0.3);
+    /* background-color: rgb(14 13 13 / 0.2); */
   }
   
   .divBox2 {
@@ -2608,9 +3027,9 @@ input {
     height: 360px;
     width: 480px;
     justify-content: center;
+    background-color: rgb(135 206 235/0.3);
     /* align-items: center; */
     gap: 0px;
-    background-color: rgb(14 13 13 /0.2)
   }
   
   .textFont {
@@ -2693,7 +3112,7 @@ input {
   
   .pickLesson {
     width: 400px;
-    background-color: rgb(128 188 212/ 0.7);
+    background-color: beige;
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
@@ -2702,7 +3121,7 @@ input {
     height: fit-content;
     padding-bottom: 20px;
     margin-top: 20px;
-    border-top: 1px solid brown;
+    /* border-top: 1px solid brown; */
   }
   
   .skills {
@@ -2723,8 +3142,8 @@ input {
   .skills:hover {
     height: 30px;
     width: 160px;
-    background-color: brown;
-    color: skyblue;
+    /* background-color: brown;
+    color: skyblue; */
     border-radius: 8px;
     display: flex;
     align-items: center;
@@ -2752,7 +3171,7 @@ input {
   }
   
   .divInsideAbout1 {
-    background-color: rgba(62, 155, 192, 0.3);
+    /* background-color: rgba(62, 155, 192, 0.3); */
     height: 800px;
     width: 400px;
     display: flex;
@@ -2762,13 +3181,13 @@ input {
     padding-left: 20px;
     padding-right: 20px;
     gap: 20px;
-    border-top: 1px solid brown;
-    border-bottom: 1px solid brown;
+    /* border-top: 1px solid brown;
+    border-bottom: 1px solid brown; */
   
   }
   
   .divInsideAbout {
-    background-color: rgba(62, 155, 192, 0.3);
+    /* background-color: rgba(62, 155, 192, 0.3); */
     height: 450px;
     width: 400px;
     display: flex;
@@ -2778,8 +3197,8 @@ input {
     /* padding-left: 20px;
     padding-right: 20px; */
     gap: 20px;
-    border-top: 1px solid brown;
-    border-bottom: 1px solid brown;
+    /* border-top: 1px solid brown;
+    border-bottom: 1px solid brown; */
   }
   
   
@@ -3113,7 +3532,7 @@ input {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    background-color: rgb(0 0 0/0.2);
+    background-color: rgb(135 206 235/0.3);
     padding-left: 10px;
   }
 
@@ -3183,7 +3602,7 @@ input {
 .innerCon {
   width: 360px;
   height: 240px;
-  background-color: rgb(0 0 0/ 0.2);
+  background-color: rgb(135 206 235/0.3);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -4479,7 +4898,7 @@ input {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    background-color: rgb(0 0 0/0.2);
+    background-color: rgb(135 206 235/0.3);
     padding-left: 10px;
   }
 
