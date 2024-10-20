@@ -1618,7 +1618,7 @@ input {
   justify-content: center;
   margin-top: 20px;
   padding-bottom: 20px;
-  border-top: 1px solid beige;
+  /* border-top: 1px solid beige; */
   padding-left: 0px;
 }
 
@@ -4542,6 +4542,7 @@ p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: greenyellow;
 }
 
 .searchdiv {
@@ -4557,7 +4558,7 @@ input {
 
 .pickLesson {
   width: 384px;
-  background-color: rgb(0 0 0/0.2);
+  background-color: beige; 
   display: flex;
   gap: 10px;
   flex-wrap: wrap;
@@ -4566,7 +4567,6 @@ input {
   height: fit-content;
   padding-bottom: 20px;
   padding-top: 20px;
-  border-top: 1px solid beige;
   padding-left: 10px;
 }
 
