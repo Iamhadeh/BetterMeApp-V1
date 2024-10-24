@@ -4639,7 +4639,7 @@ input {
 }
 
 .divInsideAbout {
-  background-color: beige;
+  background-color: #669eb4;
   height: 450px;
   width: 360px;
   display: flex;
