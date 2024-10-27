@@ -61,6 +61,11 @@ const softskills = [
         id: 12,
         name:"Planning",
         link:"/planning"
+    },
+    {
+        id: 13,
+        name:"Literal Thinking",
+        link:"/literal-thinking"
     }
 ]
 

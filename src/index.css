@@ -248,16 +248,7 @@ header {
 
 
 
-.red {
-  background-color: red;
-  width: 1440px;
-  height: 800px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-}
+
 
 /* 
 .fade-img {
@@ -505,11 +496,11 @@ footer {
   height: 55px;
   margin: 0px;
   padding: 0px;
-   position: relative;
+  position: relative; 
   bottom: 0px;
-  left: 0px;
-  right: 0px;
 }
+
+
 
 footer > h3 {
   display: flex;
@@ -847,6 +838,105 @@ input {
   height: 240px;
   width: 240px;
 } 
+
+
+
+
+/*test page */ 
+
+.main-test-page-con {
+  height: fit-content;
+  width: fit-content;
+  padding: 50px;
+}
+
+
+
+.test-welcome {
+  width: 1200px;
+  padding: 50px;
+  height: fit-content;
+  background-color: rgb(102 158 180/ 0.2);
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.hideDiv {
+  display: none;
+}
+
+.btnClose {
+  background-color: beige;
+  color: black;
+  border: 0px solid beige;
+  height: 25px;
+  width: 100px;
+  position: relative;
+  left: 450px;
+}
+
+.sorry-text {
+  background-color: #669eb4;
+  width: 600px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: fit-content;
+  position: fixed;
+  margin-left: 100px;
+  top: 200px;
+  border: 2px solid red;
+}
+
+.sorry-text h2 {
+  font-size: 1.6rem;
+  color: black;
+}
+
+.sorry-text p {
+  color: beige;
+  font-size: 1.0rem;
+}
+
+.test-info {
+  width: 1200px;
+  padding: 50px;
+  height: fit-content;
+  background-color: rgb(102 158 180/ 0.2);
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.test-info h2 {
+  color: #669eb4;
+}
+
+
+.try-random {
+  width: fit-content;
+  height: fit-content;
+  padding: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.pick-box {
+  width: 1200px;
+  padding: 50px;
+  height: fit-content;
+  background-color: rgb(102 158 180/ 0.2);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+
+
+
 
 
 /* signup page */ 
@@ -1734,6 +1824,73 @@ input {
 } 
 
 
+/*test page */ 
+
+.main-test-page-con {
+  height: fit-content;
+  width: 834px;
+  padding: 20px;
+}
+
+.test-welcome {
+  width: 720px;
+}
+
+.test-info {
+  width: 720px;
+  padding: 50px;
+  height: fit-content;
+  background-color: rgb(102 158 180/ 0.2);
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.test-info h2 {
+  color: #669eb4;
+}
+
+
+
+.btnClose {
+  /* background-color: beige;
+  color: black;
+  border: 0px solid beige;
+  height: 25px;
+  width: 100px; */
+  position: relative;
+  left: 280px;
+}
+
+.sorry-text {
+  /* background-color: #669eb4; */
+  width: 480px;
+  margin-left: 50px;
+  /* padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: fit-content;
+  position: fixed;
+  margin-left: 100px;
+  top: 200px;
+  border: 2px solid red; */
+}
+
+
+.try-random {
+  width: fit-content;
+  height: fit-content;
+}
+
+.pick-box {
+  width: 720px;
+}
+
+.pick-box .BtnLearn {
+  width: 190px;
+}
+
+
 /* signup page */ 
 
 .mainSPDiv {
@@ -2410,6 +2567,63 @@ input {
 } 
 
 
+
+
+/*test page */ 
+
+.main-test-page-con {
+  height: fit-content;
+  width: 768px;
+  padding: 50px;
+}
+
+.test-welcome {
+  width: 640px;
+}
+
+.test-info {
+  width:640px;
+  padding: 50px;
+  height: fit-content;
+  background-color: rgb(102 158 180/ 0.2);
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.test-info h2 {
+  color: #669eb4;
+}
+
+
+
+.btnClose {
+  position: relative;
+  left: 240px;
+}
+
+.sorry-text {
+  width: 400px;
+}
+
+
+.try-random {
+  width: fit-content;
+  height: fit-content
+}
+
+.pick-box {
+  width: 640px;
+  justify-content: center;
+  align-items: center;
+}
+
+.pick-box .BtnLearn {
+  width: 240px;
+}
+
+
+
+
 /* signup page */ 
 
 .mainSPDiv {
@@ -2629,6 +2843,7 @@ input {
     padding-top: 7px;
     padding-left: 10px;
      z-index: 1;
+     position: relative;
   }
 
   nav .menuBtn {
@@ -2651,7 +2866,6 @@ input {
     margin-top: 5px;
     width: 320px;
     background-color: black;
-    /* border: 2px solid brown; */
     gap: 20px;
     display: flex;
     flex-direction: column;
@@ -3251,6 +3465,60 @@ input {
     height: 240px;
     width: 240px;
   } 
+
+
+
+  /*test page */ 
+
+.main-test-page-con {
+  height: fit-content;
+  width: 520px;
+  padding: 50px;
+}
+
+.main-test-page-con h1 {
+  font-size: 1.5rem;
+}
+
+.test-welcome {
+  width: 420px;
+}
+
+.test-info {
+  width: 420px;
+}
+
+.test-info h2 {
+  color: #669eb4;
+}
+
+
+.btnClose {
+  position: relative;
+  left: 150px;
+  margin-top: 20px;
+}
+
+.sorry-text {
+  width: 300px;
+}
+
+.try-random {
+  width: fit-content;
+  height: fit-content
+}
+
+.pick-box {
+  width: 420px;
+  padding: 0px;
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.pick-box .BtnLearn {
+  width: 180px;
+}
 
 
   /* signup page */ 
@@ -4095,10 +4363,62 @@ input {
 
 
 
+  
+/*test page */ 
+
+.main-test-page-con {
+  height: fit-content;
+  width: 428px;
+  padding: 50px;
+}
+
+.main-test-page-con h1 {
+  font-size: 1.2rem;
+}
+
+.test-welcome {
+  width: 360px;
+}
+
+.test-info {
+  width: 360px;
+}
+
+.test-info h2 {
+  color: #669eb4;
+}
+
+
+.try-random {
+  width: fit-content;
+  height: fit-content
+}
+
+
+.btnClose {
+  left: 180px;
+}
+
+.sorry-text {
+  width: 340px;
+}
+
+.pick-box {
+  width: 360px;
+  gap: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 40px;
+}
+
+.pick-box .BtnLearn{
+  width: 130px;
+  font-size: 11px;
+}
+
+
 
   /* signup page */ 
-
-
 
 
 .mainSPDiv {
@@ -4693,6 +5013,54 @@ input {
   height: 240px;
   width: 240px;
 }  
+
+
+
+
+  
+/*test page */ 
+
+.main-test-page-con {
+  height: fit-content;
+  width: 414px;
+  padding: 50px;
+}
+
+.main-test-page-con h1 {
+  font-size: 1.2rem;
+}
+
+.test-welcome {
+  width: 330px;
+}
+
+.test-info {
+  width: 330px;
+}
+
+.test-info h2 {
+  color: #669eb4;
+}
+
+
+.try-random {
+  width: fit-content;
+  height: fit-content
+}
+
+.pick-box {
+  width: 330px;
+  gap: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 40px;
+}
+
+.pick-box .BtnLearn{
+  width: 200px;
+  font-size: 11px;
+}
+
 
 
   /* signup page */ 
@@ -5355,6 +5723,71 @@ input {
     height: 240px;
     width: 240px;
   }  
+
+
+
+
+    
+/*test page */ 
+
+.main-test-page-con {
+  height: fit-content;
+  width: 360px;
+  padding: 20px;
+}
+
+.main-test-page-con h1 {
+  font-size: 1.2rem;
+}
+
+.test-welcome {
+  width: 330px;
+  padding: 20px;
+}
+
+.test-info {
+  width: 330px;
+  padding: 20px;
+}
+
+.test-info h2 {
+  color: #669eb4;
+}
+
+.btnClose {
+  left: 130px;
+}
+
+.sorry-text {
+  width: 270px;
+}
+
+.sorry-text h2 {
+  font-size: 1.4rem;
+}
+
+
+.try-random {
+  width: fit-content;
+  height: fit-content
+}
+
+.pick-box {
+  width: 330px;
+  gap: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.pick-box .BtnLearn{
+  width: 138px;
+}
+
+
+
 
     /* signup page */ 
 

@@ -62,7 +62,7 @@ function Root () {
   
        <div className="mainBox">
          <button className="btnMain"> <Link to={'home/startlearning'}> Start Learning</Link> </button>
-         <button className="btnMain">Take A Test</button>
+         <button className="btnMain"> <Link to={'/test-page'}> Take A Test</Link></button>
          <button  className="btnMain">Analytics</button>
        </div>
        

@@ -20,6 +20,7 @@ import CriticalThinking from "./routes/CriticialThinking";
 import TimeManagement from "./routes/TimeManagement.jsx";
 import Sales from "./routes/Sales.jsx";
 import AccountPage from "./routes/AccountPage.jsx";
+import TestPage from "./routes/Testpages.jsx";
 
 
 //creativity subpages
@@ -91,9 +92,14 @@ const router = createBrowserRouter([
       element: <AccountPage />,
     },
 
+    {
+      path: "/test-page",
+      element: <TestPage />,
+    },
+
+
 
     //creativity subpages
-
     {
       path: "/what-is-creativity",
       element: <WhatIsCreativity />,
