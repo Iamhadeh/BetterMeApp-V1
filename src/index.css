@@ -35,7 +35,7 @@ h2 {
 .welcomeH3 {
   font-family: "Caveat", system-ui;
   height: 50px;
-  color: skyblue;
+  color: #669eb4;
 }
 
 h3 {
@@ -198,7 +198,7 @@ header {
 .join-us-box {
   width: 1440px;
   height: 800px;
-  background-color: #669eb4;
+  background-color: rgb(102 158 180/ 0.2);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -214,6 +214,8 @@ header {
  margin-top: 20px;
  height: 40px;
  width: 120px;
+ border: 0px solid skyblue;
+ font-weight: bolder;
 }
 
 .join-us-box button:hover {
@@ -228,10 +230,36 @@ header {
 
 
 
+
+
 /* fade in image */
 
+.hide-img {
+  visibility: hidden;
+}
+
+.show-img-1 {
+  visibility: visible;
+}
+
+.show-img-2, .show-img-3, .show-img-4, .show-img-5 {
+  visibility: visible;
+}
 
 
+
+.red {
+  background-color: red;
+  width: 1440px;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+/* 
 .fade-img {
   animation: fadeIn 5s;
 }
@@ -290,7 +318,7 @@ header {
 @keyframes fadeIn-5 {
   0% { opacity: 0; }
   100% { opacity: 1; }
-} 
+}  */
 
 
 
@@ -318,8 +346,13 @@ header {
   height: 320px;
 }
 
+.why-join-text {
+  color: #669eb4;
+}
+
 .imp-words {
-  color: beige;
+  color: brown;
+  border-bottom: 1px solid brown;
 }
 
 /*third section*/
@@ -361,6 +394,8 @@ header {
     width: 150px;
     height: 40px;
     font-size: bolder;
+    border: 0px solid black;
+    font-weight: bolder;
   }
 
   .fourth-section-cont button:hover {
@@ -463,7 +498,7 @@ footer {
   display: flex;
   justify-content: center;
   background-color: black;
-  color: skyblue;
+  color: #669eb4;
   display: flex;
   flex-direction: column;
   width: 1440px;
@@ -494,12 +529,12 @@ footer > h3 {
 .footerIcons {
   display: flex;
   position: relative;
-  justify-content: center;
+  justify-content: center; 
   align-items: center;
   width: 200px;
   gap: 30px;
   height: 22px;
-  background-color: skyblue;
+  background-color: #669eb4;
   border-radius: 15px;
   left: 40px;
 }

@@ -13,9 +13,34 @@ import { useState } from "react";
 
 
 
+
+
 function Root () {
 
-  // const [intial, setInitial] = useState("")
+  
+  const [showImg1, setShowImg1] = useState("hide-img")
+  const [showImg2, setShowImg2] = useState("hide-img")
+  const [showImg3, setShowImg3] = useState("hide-img")
+  const [showImg4, setShowImg4] = useState("hide-img")
+  const [showImg5, setShowImg5] = useState("hide-img")
+
+  function changeImages () {
+    setShowImg1("show-img-1")
+    setTimeout(setShowImg1, 1000);
+
+    setShowImg1("show-img-2")
+    setTimeout(setShowImg2, 2000);
+
+    setShowImg1("show-img-3")
+    setTimeout(setShowImg3, 3000);
+
+
+    setShowImg1("show-img-4")
+    setTimeout(setShowImg4, 4000);
+
+    setShowImg1("show-img-5")
+    setTimeout(setShowImg5, 5000);
+  }
 
     return (
       <>
@@ -42,24 +67,29 @@ function Root () {
        </div>
        
        {/* this is another section */}
-        <div className="join-us-box">
+        <div onMouseOver={changeImages} className="join-us-box">
             <h2 className="why-join-text">Why You Should Join Us?</h2>
             <div className="imgFading">
-               <img className="fade-img" src="../static/FdImg3.png" alt="" />
-               <img className="fade-img-1" src="../static/FdImg4.png" alt="" />
-               <img className="fade-img-2" src="../static/FdImg5.png" alt="" />
-               <img className="fade-img-3" src="../static/FdImg6.png" alt="" />
-               <img className="fade-img-4" src="../static/FdImg2.png" alt="" />
-               <img className="fade-img-5" src="../static/FdImg1.png" alt="" />
+               <img  src="../static/FdImg1.png" alt="" />
+               {/* 
+              
+               
+                */}
+              
+               <img className={showImg1} src="../static/FdImg2.png" alt="" />
+               <img className={showImg2} src="../static/FdImg6.png" alt="" />
+               <img className={showImg3} src="../static/FdImg5.png" alt="" />
+               <img className={showImg4} src="../static/FdImg4.png" alt="" />
+               <img className={showImg5} src="../static/FdImg3.png" alt="" />
            </div>
             <div className="join-us-text-box">
-               <p>Many People have the <span className="imp-words">work skills,</span>, <span className="imp-words">business idea</span>, <span className="imp-words">talent</span>, but a lack of soft skills have limited their growth and achievements.
+               <p>Many People have the <span className="imp-words">work skills</span>, <span className="imp-words">business idea</span>, <span className="imp-words">talent</span>, but a lack of <span className="imp-words">soft skills</span> have limited their growth and achievements.
                </p>
                <p>They want to make progress in their <span className="imp-words">career</span>, <span className="imp-words"> business</span>, or <span className="imp-words">role</span>
               , but they do not know what needs to be done.
                 </p>
                 <p>
-                  Can't close a deal? Don't know how to handle emotions? Afraid of trying new things? This is what differentiate the acheivers and those who don't, thos who make progress steadily, and those who don't.
+                  Can't close a deal? Don't know how to handle emotions? Afraid of trying new things? This is what differentiate the acheivers and those who don't, those who make progress steadily, and those who don't.
                 </p>
                 <p>
                   Join Us Now. Build the extra skills that can give you all the advantge. 
