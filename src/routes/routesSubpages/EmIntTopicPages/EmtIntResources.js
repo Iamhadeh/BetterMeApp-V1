@@ -14,7 +14,7 @@ const ComponentsOfEmotionalIntelligence = [
         type:"Guide"
     },
     {
-    idy: 2,
+    id: 2,
         title:"Emotional Inteligence in Leadership",
         link:"https://online.hbs.edu/blog/post/emotional-intelligence-in-leadership",
         authorName:"Havard Business School",
@@ -28,16 +28,46 @@ const ComponentsOfEmotionalIntelligence = [
         type:"Guide"
     },
     {
-    idy: 4,
+    id: 4,
         title:"Emotional Intelligence Component, importance, and...",
         link:"https://www.medicalnewstoday.com/articles/components-of-emotional-intelligence",
         authorName:"Medical News Today",
+        type:"Guide"
+    },
+
+    {
+       id: 5,
+        title:"Understanding Emotions: Origins and Roles of the Amygdala",
+        link:"https://pmc.ncbi.nlm.nih.gov/articles/PMC8228195/#",
+        authorName:"National Library of Science",
+        type:"Report"
+    },
+    {
+        id: 6,
+        title:"We don't understand how emotions work. A neuroscientist explains...",
+        link:"https://www.sciencefocus.com/the-human-body/what-are-emotions",
+        authorName:"BBC Science Focus",
+        type:"Guide"
+    },
+    {
+        id: 7,
+        title:"Neuroscientist Lisa Feldman Barrett explains how emotions are made",
+        link:"https://www.theverge.com/2017/4/10/15245690/how-emotions-are-made-neuroscience-lisa-feldman-barrett",
+        authorName:"The Verge",
+        type:"Guide"
+    },
+
+     {
+        id: 8,
+        title:"Emotion Theory and Research: Highlights, Unanswered Questions, and Emerging Issues",
+        link:"https://pmc.ncbi.nlm.nih.gov/articles/PMC2723854/",
+        authorName:"National Library of Science",
         type:"Guide"
     }
 
 ]
 
-
+//
 
 const ScienceOfEmotionsResources   = [
     {

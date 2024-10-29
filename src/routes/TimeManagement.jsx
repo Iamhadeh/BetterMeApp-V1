@@ -13,19 +13,32 @@ import FunBtnTM, {HowToBtnTM, RschBtnTM} from "../components/TimeManagementInfo"
 
 function CreateButtons (FunBtnTM) {
     return (
-        <ButtonsProps name={FunBtnTM.name}/>
+        <ButtonsProps 
+        name={FunBtnTM.name}
+        link={FunBtnTM.link}
+        key={FunBtnTM.id}
+        />
     )
-}
+} 
 
 function CreateResearcbuttons (RschBtnTM) {
     return (
-        <ButtonsProps name={RschBtnTM.name}/>
+        <ButtonsProps 
+        name={RschBtnTM.name}
+        link={RschBtnTM.link}
+        key={RschBtnTM.id}
+        />
     )
 }
 
 function CreateHowTos (HowToBtnTM) {
     return (
-        <ButtonsProps name={HowToBtnTM.name}/>
+        <ButtonsProps 
+        name={HowToBtnTM.name}
+        link={HowToBtnTM.link}
+        key={HowToBtnTM.id}
+
+        />
     )
 }
 

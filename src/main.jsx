@@ -40,6 +40,10 @@ import ImpEmoIntPage from "./routes/routesSubpages/EmIntTopicPages/ImportanceOfE
 import MotiveAndEmotionPage from "./routes/routesSubpages/EmIntTopicPages/MotivationAndEmotion.jsx";
 
 
+//Time Management Subpages 
+import TimeMgtBasis from "./routes/routesSubpages/TimeManagement/TimeMgtBasics.jsx";
+
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -154,6 +158,13 @@ const router = createBrowserRouter([
       element: <MotiveAndEmotionPage />,
     },
 
+
+
+    //Time Managenment 
+    {
+      path: "/basics-time-management",
+      element: <TimeMgtBasis />,
+    },
     
 
   ]); 
